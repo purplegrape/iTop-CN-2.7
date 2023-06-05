@@ -138,9 +138,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Location/Attribute:country' => '国家',
 	'Class:Location/Attribute:country+' => '',
 	'Class:Location/Attribute:physicaldevice_list' => '设备',
-	'Class:Location/Attribute:physicaldevice_list+' => '该位置的所有设备',
+	'Class:Location/Attribute:physicaldevice_list+' => '该地点的所有设备',
 	'Class:Location/Attribute:person_list' => '联系人',
-	'Class:Location/Attribute:person_list+' => '该位置的所有联系人',
+	'Class:Location/Attribute:person_list+' => '该地点的所有联系人',
 ));
 
 //
@@ -1831,7 +1831,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Document+' => '所有文档',
 	'Menu:Location' => '地点',
 
-	'Menu:Location+' => '所有位置',
+	'Menu:Location+' => '所有地点',
 	'Menu:ConfigManagementCI' => '配置项',
 	'Menu:ConfigManagementCI+' => '配置项',
 	'Menu:BusinessProcess' => '业务流程',
