@@ -23,16 +23,16 @@
 // Database inconsistencies
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	// Dictionary entries go here
-	'Menu:DBToolsMenu' => 'DB 工具',
+	'Menu:DBToolsMenu' => '数据库完整性',
 	'DBTools:Class' => 'Class~~',
-	'DBTools:Title' => '数据库维护工具',
+	'DBTools:Title' => '数据库完整性检查',
 	'DBTools:ErrorsFound' => '发现错误',
 	'DBTools:Error' => '错误',
 	'DBTools:Count' => '个数',
 	'DBTools:SQLquery' => 'SQL 查询',
 	'DBTools:FixitSQLquery' => 'SQL query To Fix it (indication)~~',
 	'DBTools:SQLresult' => 'SQL 结果',
-	'DBTools:NoError' => '数据库OK ',
+	'DBTools:NoError' => '数据库完好',
 	'DBTools:HideIds' => '错误列表',
 	'DBTools:ShowIds' => '详细视图',
 	'DBTools:ShowReport' => '报告',
@@ -43,7 +43,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'DBTools:Details' => '显示详情',
 	'DBTools:ShowAll' => '显示所有错误',
 
-	'DBTools:Inconsistencies' => '数据库不一致',
+	'DBTools:Inconsistencies' => '数据库一致性',
 
 	'DBAnalyzer-Integrity-OrphanRecord' => 'Orphan record in `%1$s`, it should have its counterpart in table `%2$s`~~',
 	'DBAnalyzer-Integrity-InvalidExtKey' => '无效的外键 %1$s (列: `%2$s.%3$s`)~~',

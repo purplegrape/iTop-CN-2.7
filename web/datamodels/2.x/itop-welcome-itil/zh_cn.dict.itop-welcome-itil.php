@@ -27,7 +27,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:WelcomeMenu+' => '欢迎使用iTop',
 	'Menu:WelcomeMenuPage' => '欢迎',
 	'Menu:WelcomeMenuPage+' => '欢迎使用iTop',
-	'Menu:AdminTools' => '管理工具',
+	'Menu:AdminTools' => '管理',
 	'Menu:AdminTools+' => '管理工具',
 	'Menu:AdminTools?' => '具有管理员角色的用户才能使用的工具',
 	'Menu:DataModelMenu' => '数据模型',

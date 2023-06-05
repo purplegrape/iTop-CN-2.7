@@ -248,7 +248,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOp/Attribute:objkey' => '对象id',
 	'Class:CMDBChangeOp/Attribute:objkey+' => 'object id',
 	'Class:CMDBChangeOp/Attribute:finalclass' => 'CMDBChangeOp sub-class',
-	'Class:CMDBChangeOp/Attribute:finalclass+' => 'Name of the final class',
+	'Class:CMDBChangeOp/Attribute:finalclass+' => '根属性名称',
 ));
 
 //
@@ -304,7 +304,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Change:AttName_Changed' => '%1$s 已修改',
 	'Change:AttName_EntryAdded' => '%1$s 已修改, 新条目已添加: %2$s',
 	'Change:LinkSet:Added' => '已添加 %1$s',
-	'Change:LinkSet:Removed' => '已移除 %1$s',
+	'Change:LinkSet:Removed' => '已删除 %1$s',
 	'Change:LinkSet:Modified' => '已修改 %1$s',
 ));
 
@@ -344,7 +344,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Event/Attribute:userinfo' => '用户信息',
 	'Class:Event/Attribute:userinfo+' => 'identification of the user that was doing the action that triggered this event',
 	'Class:Event/Attribute:finalclass' => '事件子类别',
-	'Class:Event/Attribute:finalclass+' => 'Name of the final class',
+	'Class:Event/Attribute:finalclass+' => '根属性名称',
 ));
 
 //
@@ -483,7 +483,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Action/Attribute:trigger_list' => '相关的触发器',
 	'Class:Action/Attribute:trigger_list+' => '该操作关联的触发器',
 	'Class:Action/Attribute:finalclass' => 'Action sub-class',
-	'Class:Action/Attribute:finalclass+' => 'Name of the final class',
+	'Class:Action/Attribute:finalclass+' => '根属性名称',
 ));
 
 //
@@ -540,7 +540,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Trigger/Attribute:action_list' => '触发的行为',
 	'Class:Trigger/Attribute:action_list+' => 'Actions performed when the trigger is activated',
 	'Class:Trigger/Attribute:finalclass' => '触发器子类别',
-	'Class:Trigger/Attribute:finalclass+' => 'Name of the final class',
+	'Class:Trigger/Attribute:finalclass+' => '根属性名称',
 	'Class:Trigger/Attribute:context' => '上下文',
 	'Class:Trigger/Attribute:context+' => 'Context to allow the trigger to start~~',
 ));
@@ -1042,7 +1042,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AsyncTask/Attribute:planned+' => '',
 	'Class:AsyncTask/Attribute:event_id' => '事件',
 	'Class:AsyncTask/Attribute:event_id+' => '',
-	'Class:AsyncTask/Attribute:finalclass' => 'Final class~~',
+	'Class:AsyncTask/Attribute:finalclass' => '根属性',
 	'Class:AsyncTask/Attribute:finalclass+' => '~~',
 	'Class:AsyncTask/Attribute:status' => 'Status~~',
 	'Class:AsyncTask/Attribute:status+' => '~~',
