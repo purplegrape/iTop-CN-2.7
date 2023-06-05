@@ -104,7 +104,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:User' => '用户',
 	'Class:User+' => '用户登录名',
-	'Class:User/Attribute:finalclass' => '帐户类别',
+	'Class:User/Attribute:finalclass' => '账户类别',
 	'Class:User/Attribute:finalclass+' => '根属性',
 	'Class:User/Attribute:contactid' => '联系人 (个人)',
 	'Class:User/Attribute:contactid+' => '来自业务数据的个人明细信息',
@@ -181,7 +181,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_UserProfile' => '角色目标用户',
 	'Class:URP_UserProfile+' => '用户的角色',
 	'Class:URP_UserProfile/Attribute:userid' => '用户',
-	'Class:URP_UserProfile/Attribute:userid+' => '用户帐户',
+	'Class:URP_UserProfile/Attribute:userid+' => '用户账户',
 	'Class:URP_UserProfile/Attribute:userlogin' => '登录名',
 	'Class:URP_UserProfile/Attribute:userlogin+' => '用户的登录名',
 	'Class:URP_UserProfile/Attribute:profileid' => '角色',
@@ -201,7 +201,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_UserOrg' => '用户组织',
 	'Class:URP_UserOrg+' => '可以访问的组织',
 	'Class:URP_UserOrg/Attribute:userid' => '用户',
-	'Class:URP_UserOrg/Attribute:userid+' => '用户帐户',
+	'Class:URP_UserOrg/Attribute:userid+' => '用户账户',
 	'Class:URP_UserOrg/Attribute:userlogin' => '登录名',
 	'Class:URP_UserOrg/Attribute:userlogin+' => '用户的登录名',
 	'Class:URP_UserOrg/Attribute:allowed_org_id' => '组织',
@@ -1016,9 +1016,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ProfilesMenu+' => '角色', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:ProfilesMenu:Title' => '角色', // Duplicated into itop-welcome-itil (will be removed from here...)
 
-	'Menu:UserAccountsMenu' => '用户帐户', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:UserAccountsMenu+' => '用户帐户', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:UserAccountsMenu:Title' => '用户帐户', // Duplicated into itop-welcome-itil (will be removed from here...)	
+	'Menu:UserAccountsMenu' => '用户账户', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:UserAccountsMenu+' => '用户账户', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:UserAccountsMenu:Title' => '用户账户', // Duplicated into itop-welcome-itil (will be removed from here...)	
 
 	'UI:iTopVersion:Short' => '%1$s version %2$s',
 	'UI:iTopVersion:Long' => '%1$s version %2$s-%3$s built on %4$s',
