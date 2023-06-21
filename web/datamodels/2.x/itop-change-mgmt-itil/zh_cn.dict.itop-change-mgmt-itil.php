@@ -80,7 +80,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Change/Attribute:status/Value:approved+' => '',
 	'Class:Change/Attribute:status/Value:notapproved' => '未批准',
 	'Class:Change/Attribute:status/Value:notapproved+' => '',
-	'Class:Change/Attribute:status/Value:implemented' => '已实施',
+	'Class:Change/Attribute:status/Value:implemented' => '已生效',
 	'Class:Change/Attribute:status/Value:implemented+' => '',
 	'Class:Change/Attribute:status/Value:monitored' => '已验收',
 	'Class:Change/Attribute:status/Value:monitored+' => '',

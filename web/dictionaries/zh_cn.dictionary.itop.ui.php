@@ -350,30 +350,30 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:WelcomeMenuPage+' => '欢迎使用iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:WelcomeMenu:Title' => '欢迎使用iTop',
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop 是完全开源的IT 操作门户.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>iTop 是完全开源的 IT 运维门户.</p>
 <ul>它包括:
-<li>完整的CMDB(Configuration management database),用于登记和管理您的IT 资产.</li>
-<li>事件管理模块用于跟踪和传递所有发生在IT 系统中的事件.</li>
-<li>变更管理模块用于规划和跟踪IT 环境中发生的变化.</li>
+<li>完整的CMDB(Configuration management database),用于登记和管理您的 IT 资产.</li>
+<li>事件管理模块用于跟踪和传递所有发生在 IT 系统中的事件.</li>
+<li>变更管理模块用于规划和跟踪 IT 环境中发生的变化.</li>
 <li>已知错误数据库可加速事件的处理.</li>
 <li>停机模块记录所有计划内的停机并通知对应的联系人.</li>
-<li>通过仪表盘迅速获得IT 状态的概况.</li>
+<li>通过仪表盘迅速获得 IT 状态的概况.</li>
 </ul>
 <p>所有模块可以各自独立地、一步步地部署.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop 是面向服务供应商的, 它使得IT 工程师能够更方便地管理多客户和多组织.
+	'UI:WelcomeMenu:RightBlock' => '<p>iTop 是面向服务供应商的, 它使得 IT 工程师能够更方便地管理多客户和多组织.
 <ul>iTop 提供功能丰富的业务处理流程:
-<li>提高IT 管理效率</li> 
-<li>提升IT 可操作能力</li> 
+<li>提高 IT 管理效率</li> 
+<li>提升 IT 可操作能力</li> 
 <li>提高用户满意度,提升业务能力.</li>
 </ul>
 </p>
 <p>iTop 是完全开放的,可被集成到现有的IT 管理架构之中.</p>
 <p>
-<ul>利用这个新一代的IT 操作门户, 可以帮助您:
-<li>更好地管理越来越复杂的IT 环境.</li>
-<li>逐步实现ITIL 流程.</li>
-<li>管理IT 中最重要的资产: 文档.</li>
+<ul>利用这个新一代的 IT 运维门户, 可以帮助您:
+<li>更好地管理越来越复杂的 IT 环境.</li>
+<li>逐步实现 ITIL 流程.</li>
+<li>管理 IT 中最重要的资产: 文档.</li>
 </ul>
 </p>',
 	'UI:WelcomeMenu:AllOpenRequests' => '所有打开的需求: %1$d',
@@ -430,7 +430,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Error:MandatoryTemplateParameter_object_id' => '当link_attr 被指定时,参数 object_id 是必须的. 检查显示模板的定义.',
 	'UI:Error:MandatoryTemplateParameter_target_attr' => '当link_attr 被指定时, 参数 target_attr 是必须的. 检查显示模板的定义.',
 	'UI:Error:MandatoryTemplateParameter_group_by' => '参数 group_by 是必须的. 检查显示模板的定义.',
-	'UI:Error:InvalidGroupByFields' => 'group by 的字段列表是无效的: "%1$s".',
+	'UI:Error:InvalidGroupByFields' => 'group by 的字段列表无效: "%1$s".',
 	'UI:Error:UnsupportedStyleOfBlock' => '错误: 不被支持的 block 格式: "%1$s".',
 	'UI:Error:IncorrectLinkDefinition_LinkedClass_Class' => '关联错误: 关联的对象: %1$s 不是 %2$s 的外键',
 	'UI:Error:Object_Class_Id_NotFound' => '对象: %1$s:%2$d 找不到.',
@@ -748,8 +748,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Schema:Relation_Code_Description' => '关联 <em>%1$s</em> (%2$s)',
 	'UI:Schema:RelationDown_Description' => '向下: %1$s',
 	'UI:Schema:RelationUp_Description' => '向上: %1$s',
-	'UI:Schema:RelationPropagates' => '%1$s: 繁殖到 %2$d 个层级, 查询: %3$s',
-	'UI:Schema:RelationDoesNotPropagate' => '%1$s: 没有繁殖 (%2$d 层级), 查询: %3$s',
+	'UI:Schema:RelationPropagates' => '%1$s: 延申到 %2$d 个层级, 查询: %3$s',
+	'UI:Schema:RelationDoesNotPropagate' => '%1$s: 没有延申 (%2$d 层级), 查询: %3$s',
 	'UI:Schema:Class_ReferencingClasses_From_By' => '%1$s 被类 %2$s 参照, 通过字段 %3$s',
 	'UI:Schema:Class_IsLinkedTo_Class_Via_ClassAndAttribute' => '%1$s 被链接到 %2$s 通过 %3$s::<em>%4$s</em>',
 	'UI:Schema:Links:1-n' => '类指向 %1$s (1:n 关联):',
@@ -777,7 +777,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Label:SelectedObjects' => '被选的对象: ',
 	'UI:Label:AvailableObjects' => '可用的对象: ',
 	'UI:Link_Class_Attributes' => '%1$s 属性',
-	'UI:SelectAllToggle+' => '全选 / 反选',
+	'UI:SelectAllToggle+' => '全选/反选',
 	'UI:AddObjectsOf_Class_LinkedWith_Class_Instance' => '添加 %1$s 个对象, 链接 %2$s: %3$s',
 	'UI:AddObjectsOf_Class_LinkedWith_Class' => ' %1$s ',
 	'UI:ManageObjectsOf_Class_LinkedWith_Class_Instance' => '管理 %1$s 个对象, 链接 %2$s: %3$s',
@@ -1146,7 +1146,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:ArchiveMode:Banner' => '归档模式',
 	'UI:ArchiveMode:Banner+' => '已归档的对象可见但不允许修改',
 	'UI:FavoriteOrganizations' => '快速访问',
-	'UI:FavoriteOrganizations+' => '进入组织下的列表,可实现通过下拉菜单快速访问.请注意,这并不是一个安全设置, 其他组织的对象依然可以通过选择 "所有组织" 下拉列表看到.',
+	'UI:FavoriteOrganizations+' => '进入组织下的列表,可实现通过下拉菜单快速访问.请注意,这并不是一项安全设置, 其他组织的对象依然可以通过选择 "所有组织" 下拉列表看到.',
 	'UI:FavoriteLanguage' => '用户界面',
 	'UI:Favorites:SelectYourLanguage' => '选择语言',
 	'UI:FavoriteOtherSettings' => '其它设置',
@@ -1443,7 +1443,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:AvailableInlineImagesLegend' => '可用的图片',
 	'UI:NoInlineImage' => '服务器上没有图片. 使用上面的 "浏览" 按钮,从您的电脑上选择并上传到服务器.',
 
-	'UI:ToggleFullScreen' => '切换 最大化 / 最小化',
+	'UI:ToggleFullScreen' => '切换 最大化/最小化',
 	'UI:Button:ResetImage' => '恢复之前的图片',
 	'UI:Button:RemoveImage' => '删除图片',
 	'UI:UploadNotSupportedInThisMode' => '本模式下不支持修改文件或图片.',
@@ -1451,7 +1451,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Button:RemoveDocument' => '删除文档',
 
 	// Search form
-	'UI:Search:Toggle' => '折叠 / 展开',
+	'UI:Search:Toggle' => '折叠/展开',
 	'UI:Search:AutoSubmit:DisabledHint' => '该类别已禁用自动提交',
 	'UI:Search:Obsolescence:DisabledHint' => '<span class="fas fa-eye-slash fa-1x"></span> Based on your preferences, obsolete data are hidden~~',
 	'UI:Search:NoAutoSubmit:ExplainText' => '在搜索框中添加规则,或者单击对象按钮查看对象.',
@@ -1524,9 +1524,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	//   - Numeric widget
 	'UI:Search:Criteria:Operator:Numeric:Equals' => '等于',  // => '=',
 	'UI:Search:Criteria:Operator:Numeric:GreaterThan' => '大于',  // => '>',
-	'UI:Search:Criteria:Operator:Numeric:GreaterThanOrEquals' => '大于 / 等于',  // > '>=',
+	'UI:Search:Criteria:Operator:Numeric:GreaterThanOrEquals' => '大于/等于',  // > '>=',
 	'UI:Search:Criteria:Operator:Numeric:LessThan' => '小于',  // => '<',
-	'UI:Search:Criteria:Operator:Numeric:LessThanOrEquals' => '小于 / 等于',  // > '<=',
+	'UI:Search:Criteria:Operator:Numeric:LessThanOrEquals' => '小于/等于',  // > '<=',
 	'UI:Search:Criteria:Operator:Numeric:Different' => '不同',  // => '≠',
 	//   - Tag Set Widget
 	'UI:Search:Criteria:Operator:TagSet:Matches' => '匹配',
@@ -1537,8 +1537,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Search:Value:Autocomplete:StartTyping' => '开始输入值.',
 	'UI:Search:Value:Autocomplete:Wait' => '请稍后...',
 	'UI:Search:Value:Autocomplete:NoResult' => '没有找到结果.',
-	'UI:Search:Value:Toggler:CheckAllNone' => '全选 / 不选',
-	'UI:Search:Value:Toggler:CheckAllNoneFiltered' => '全选 / 不选',
+	'UI:Search:Value:Toggler:CheckAllNone' => '全选/不选',
+	'UI:Search:Value:Toggler:CheckAllNoneFiltered' => '全选/不选',
 
 	// - Widget other translations
 	'UI:Search:Criteria:Numeric:From' => '从',

@@ -227,7 +227,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChange/Attribute:date' => '日期',
 	'Class:CMDBChange/Attribute:date+' => '变更被记录的日期和时间',
 	'Class:CMDBChange/Attribute:userinfo' => '杂项. 信息',
-	'Class:CMDBChange/Attribute:userinfo+' => '呼叫者已定义的信息',
+	'Class:CMDBChange/Attribute:userinfo+' => '发起人已定义的信息',
 ));
 
 //
@@ -482,7 +482,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Action/Attribute:status/Value:disabled+' => '停用',
 	'Class:Action/Attribute:trigger_list' => '相关的触发器',
 	'Class:Action/Attribute:trigger_list+' => '该操作关联的触发器',
-	'Class:Action/Attribute:finalclass' => 'Action sub-class',
+	'Class:Action/Attribute:finalclass' => '操作类型',
 	'Class:Action/Attribute:finalclass+' => '根属性名称',
 ));
 

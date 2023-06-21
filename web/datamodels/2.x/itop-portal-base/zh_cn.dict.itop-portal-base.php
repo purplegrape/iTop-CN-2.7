@@ -75,7 +75,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Brick:Portal:UserProfile:Password:CantChangeContactAdministrator' => '要修改密码,请联系管理员',
 	'Brick:Portal:UserProfile:Password:CantChangeForUnknownReason' => '无法修改密码, 请联系管理员',
 	'Brick:Portal:UserProfile:PersonalInformations:Title' => '个人信息',
-	'Brick:Portal:UserProfile:Photo:Title' => '头像',
+	'Brick:Portal:UserProfile:Photo:Title' => '照片',
 ));
 
 // AggregatePageBrick
