@@ -34,7 +34,7 @@
 //
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AuditCategory' => '审计类别',
-	'Class:AuditCategory+' => '全部审计中的一个区段',
+	'Class:AuditCategory+' => '全部审计中的一项',
 	'Class:AuditCategory/Attribute:name' => '类别名称',
 	'Class:AuditCategory/Attribute:name+' => '类别简称',
 	'Class:AuditCategory/Attribute:description' => '描述',
@@ -409,7 +409,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Button:Add' => ' 添加 ',
 	'UI:Button:AddToList' => ' << 添加 ',
 	'UI:Button:RemoveFromList' => ' 删除 >> ',
-	'UI:Button:FilterList' => ' 过滤... ',
+	'UI:Button:FilterList' => ' 查找... ',
 	'UI:Button:Create' => ' 创建 ',
 	'UI:Button:Delete' => ' 删除 ! ',
 	'UI:Button:Rename' => ' 重命名... ',
@@ -1042,14 +1042,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:RelationshipList' => '列表',
 	'UI:RelationGroups' => '组',
 	'UI:OperationCancelled' => '操作已取消',
-	'UI:ElementsDisplayed' => '过滤',
+	'UI:ElementsDisplayed' => '正在查找',
 	'UI:RelationGroupNumber_N' => '分组 #%1$d',
 	'UI:Relation:ExportAsPDF' => '导出PDF...',
 	'UI:RelationOption:GroupingThreshold' => '分组阈值',
 	'UI:Relation:AdditionalContextInfo' => '其它信息',
 	'UI:Relation:NoneSelected' => '无',
 	'UI:Relation:Zoom' => '放大',
-	'UI:Relation:ExportAsAttachment' => '导出为附件...',
+	'UI:Relation:ExportAsAttachment' => '导出附件...',
 	'UI:Relation:DrillDown' => '详情...',
 	'UI:Relation:PDFExportOptions' => 'PDF 导出选项',
 	'UI:Relation:AttachmentExportOptions_Name' => 'Options for Attachment to %1$s',
@@ -1555,10 +1555,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Search:Criteria:DateTime:PlaceholderUntilTime' => '任何日期',
 	'UI:Search:Criteria:HierarchicalKey:ChildrenIncluded:Hint' => '将会包含选中对象的子集.',
 
-	'UI:Search:Criteria:Raw:Filtered' => '已过滤',
-	'UI:Search:Criteria:Raw:FilteredOn' => '基于 %1$s 过滤',
+	'UI:Search:Criteria:Raw:Filtered' => '已找到',
+	'UI:Search:Criteria:Raw:FilteredOn' => '基于 %1$s 查找',
 
-	'UI:StateChanged' => 'State changed~~',
+	'UI:StateChanged' => '状态已改变',
 ));
 
 //
