@@ -270,7 +270,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Portal:ButtonClose' => '关闭',
 	'Portal:ButtonReopen' => '重新打开',
 	'Portal:ShowServices' => '显示所有服务',
-	'Portal:SelectRequestType' => '选择一种类型的需求',
+	'Portal:SelectRequestType' => '请选择一种类型的需求',
 	'Portal:SelectServiceElementFrom_Service' => '为%1$s选择服务元素',
 	'Portal:ListServices' => '服务列表',
 	'Portal:TitleDetailsFor_Service' => '服务详细信息',
@@ -286,7 +286,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Portal:NoOpenProblem' => '没有打开的问题',
 	'Portal:SelectLanguage' => '更改您的语言',
 	'Portal:LanguageChangedTo_Lang' => '语言更改为',
-	'Portal:ChooseYourFavoriteLanguage' => '选择您喜欢的语言',
+	'Portal:ChooseYourFavoriteLanguage' => '请选择您喜欢的语言',
 
 	'Class:UserRequest/Method:ResolveChildTickets' => '解决子工单',
 	'Class:UserRequest/Method:ResolveChildTickets+' => '递归解决子工单(自动解决),并调整相关字段与父级工单保持一致:服务,团队,办理人,解决方案',

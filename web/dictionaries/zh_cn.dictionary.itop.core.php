@@ -247,8 +247,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:CMDBChangeOp/Attribute:objclass+' => 'object class',
 	'Class:CMDBChangeOp/Attribute:objkey' => '对象id',
 	'Class:CMDBChangeOp/Attribute:objkey+' => 'object id',
-	'Class:CMDBChangeOp/Attribute:finalclass' => 'CMDBChangeOp sub-class',
-	'Class:CMDBChangeOp/Attribute:finalclass+' => '根属性名称',
+	'Class:CMDBChangeOp/Attribute:finalclass' => 'CMDB操作类型',
+	'Class:CMDBChangeOp/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
@@ -343,8 +343,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Event/Attribute:date+' => '记录的日期和时间',
 	'Class:Event/Attribute:userinfo' => '用户信息',
 	'Class:Event/Attribute:userinfo+' => 'identification of the user that was doing the action that triggered this event',
-	'Class:Event/Attribute:finalclass' => '事件子类别',
-	'Class:Event/Attribute:finalclass+' => '根属性名称',
+	'Class:Event/Attribute:finalclass' => '事件类型',
+	'Class:Event/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
@@ -483,7 +483,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Action/Attribute:trigger_list' => '相关的触发器',
 	'Class:Action/Attribute:trigger_list+' => '该操作关联的触发器',
 	'Class:Action/Attribute:finalclass' => '操作类型',
-	'Class:Action/Attribute:finalclass+' => '根属性名称',
+	'Class:Action/Attribute:finalclass+' => '根本属性的名称',
 ));
 
 //
@@ -539,8 +539,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Trigger/Attribute:description+' => '简短描述',
 	'Class:Trigger/Attribute:action_list' => '触发的行为',
 	'Class:Trigger/Attribute:action_list+' => 'Actions performed when the trigger is activated',
-	'Class:Trigger/Attribute:finalclass' => '触发器子类别',
-	'Class:Trigger/Attribute:finalclass+' => '根属性名称',
+	'Class:Trigger/Attribute:finalclass' => '触发器类型',
+	'Class:Trigger/Attribute:finalclass+' => '根本属性的名称',
 	'Class:Trigger/Attribute:context' => '上下文',
 	'Class:Trigger/Attribute:context+' => 'Context to allow the trigger to start~~',
 ));
@@ -1042,7 +1042,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AsyncTask/Attribute:planned+' => '',
 	'Class:AsyncTask/Attribute:event_id' => '事件',
 	'Class:AsyncTask/Attribute:event_id+' => '',
-	'Class:AsyncTask/Attribute:finalclass' => '根属性',
+	'Class:AsyncTask/Attribute:finalclass' => '类型',
 	'Class:AsyncTask/Attribute:finalclass+' => '~~',
 	'Class:AsyncTask/Attribute:status' => 'Status~~',
 	'Class:AsyncTask/Attribute:status+' => '~~',
