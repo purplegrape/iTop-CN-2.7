@@ -29,7 +29,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Portal:Button:Cancel' => '取消',
 	'Portal:Button:Close' => '关闭',
 	'Portal:Button:Add' => '添加',
-	'Portal:Button:Remove' => '删除',
+	'Portal:Button:Remove' => '移除',
 	'Portal:Button:Delete' => '删除',
 	'Portal:EnvironmentBanner:Title' => '您目前处于 <strong>%1$s</strong> 模式',
 	'Portal:EnvironmentBanner:GoToProduction' => '回到产品模式',

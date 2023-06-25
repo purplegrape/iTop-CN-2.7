@@ -408,7 +408,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Button:BrowseObjects' => ' 浏览... ',
 	'UI:Button:Add' => ' 添加 ',
 	'UI:Button:AddToList' => ' << 添加 ',
-	'UI:Button:RemoveFromList' => ' 删除 >> ',
+	'UI:Button:RemoveFromList' => ' 移除 >> ',
 	'UI:Button:FilterList' => ' 筛选... ',
 	'UI:Button:Create' => ' 创建 ',
 	'UI:Button:Delete' => ' 删除 ! ',
@@ -722,7 +722,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Schema:AttributeCode+' => '属性的内部编码',
 	'UI:Schema:Label' => '标签',
 	'UI:Schema:Label+' => '属性标签',
-	'UI:Schema:Type' => '类别',
+	'UI:Schema:Type' => '类型',
 
 	'UI:Schema:Type+' => '属性的数据类型',
 	'UI:Schema:Origin' => '来自',
@@ -923,7 +923,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'UI:ConfigMgmtMenuOverview:Title' => '配置管理仪表盘',
 	'UI-ConfigMgmtMenuOverview-FunctionalCIbyStatus' => '按状态配置项目',
-	'UI-ConfigMgmtMenuOverview-FunctionalCIByType' => '按类别配置项目',
+	'UI-ConfigMgmtMenuOverview-FunctionalCIByType' => '按类型配置项目',
 
 	'UI:RequestMgmtMenuOverview:Title' => '需求管理仪表盘',
 	'UI-RequestManagementOverview-RequestByService' => '按服务划分用户需求',
@@ -936,7 +936,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI-IncidentManagementOverview-IncidentUnassigned' => '尚未分配给办理人的事件',
 
 	'UI:ChangeMgmtMenuOverview:Title' => '变更管理仪表盘',
-	'UI-ChangeManagementOverview-ChangeByType' => '按类别划分变更',
+	'UI-ChangeManagementOverview-ChangeByType' => '按类型划分变更',
 	'UI-ChangeManagementOverview-ChangeUnassigned' => '尚未分配给办理人的变更',
 	'UI-ChangeManagementOverview-ChangeWithOutage' => '变更引起的停机',
 
@@ -1101,7 +1101,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Portal:ErrorNoContactForThisUser' => '错误: 当前用户没有与任何联系人关联. 请联系管理员.',
 	'Portal:Attachments' => '附件',
 	'Portal:AddAttachment' => ' 添加附件 ',
-	'Portal:RemoveAttachment' => ' 删除附件 ',
+	'Portal:RemoveAttachment' => ' 移除附件 ',
 	'Portal:Attachment_No_To_Ticket_Name' => '添加 #%1$d 到 %2$s (%3$s)',
 	'Portal:SelectRequestTemplate' => '请为 %1$s 选择一个模板',
 	'Enum:Undefined' => '未定义',
@@ -1146,7 +1146,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:ArchiveMode:Banner' => '归档模式',
 	'UI:ArchiveMode:Banner+' => '已归档的对象可见但不允许修改',
 	'UI:FavoriteOrganizations' => '快速访问',
-	'UI:FavoriteOrganizations+' => '进入组织下的列表,可实现通过下拉菜单快速访问.请注意,这并不是一项安全设置, 其他组织的对象依然可以通过选择 "所有组织" 下拉列表看到.',
+	'UI:FavoriteOrganizations+' => '进入组织下的列表,可实现通过下拉菜单快速访问.请注意,这并不是一项安全设置, 其它组织的对象依然可以通过选择 "所有组织" 下拉列表看到.',
 	'UI:FavoriteLanguage' => '用户界面',
 	'UI:Favorites:SelectYourLanguage' => '选择语言',
 	'UI:FavoriteOtherSettings' => '其它设置',
@@ -1395,7 +1395,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 <tr><td>s</td><td>秒 (2位数, 比如 00..59)</td></tr>
 </table>',
 
-	'UI:Button:Remove' => '删除',
+	'UI:Button:Remove' => '移除',
 	'UI:AddAnExisting_Class' => '添加 %1$s...',
 	'UI:SelectionOf_Class' => '选择 %1$s',
 
@@ -1445,10 +1445,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'UI:ToggleFullScreen' => '切换 最大化/最小化',
 	'UI:Button:ResetImage' => '恢复之前的图片',
-	'UI:Button:RemoveImage' => '删除图片',
+	'UI:Button:RemoveImage' => '移除图片',
 	'UI:UploadNotSupportedInThisMode' => '本模式下不支持修改文件或图片.',
 
-	'UI:Button:RemoveDocument' => '删除文档',
+	'UI:Button:RemoveDocument' => '移除文档',
 
 	// Search form
 	'UI:Search:Toggle' => '折叠/展开',

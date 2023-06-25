@@ -180,7 +180,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'Ticket:baseinfo' => '基本信息',
-	'Ticket:date' => '日期信息',
+	'Ticket:date' => '日期',
 	'Ticket:contact' => '联系人',
 	'Ticket:moreinfo' => '更多信息',
 	'Ticket:relation' => '相关信息',
@@ -188,7 +188,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Ticket:Type' => '风险评估',
 	'Ticket:support' => '支持信息',
 	'Ticket:resolution' => '解决方案',
-	'Ticket:SLA' => 'SLA 报告',
+	'Ticket:SLA' => 'SLA报告',
 	'WorkOrder:Details' => '详情',
 	'WorkOrder:Moreinfo' => '更多信息',
 	'Tickets:ResolvedFrom' => '从 %1$s 自动解决',
@@ -233,10 +233,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:cmdbAbstractObject/Method:ApplyStimulus+' => 'Apply the specified stimulus to the current object',
 	'Class:cmdbAbstractObject/Method:ApplyStimulus/Param:1' => 'Stimulus code',
 	'Class:cmdbAbstractObject/Method:ApplyStimulus/Param:1+' => 'A valid stimulus code for the current class',
-	'Class:ResponseTicketTTO/Interface:iMetricComputer' => '响应时间',
+	'Class:ResponseTicketTTO/Interface:iMetricComputer' => 'TTO',
 	'Class:ResponseTicketTTO/Interface:iMetricComputer+' => 'SLT 的响应时间',
-	'Class:ResponseTicketTTR/Interface:iMetricComputer' => '解决时间',
-	'Class:ResponseTicketTTR/Interface:iMetricComputer+' => 'SLT 的解决时间',
+	'Class:ResponseTicketTTR/Interface:iMetricComputer' => 'TTR',
+	'Class:ResponseTicketTTR/Interface:iMetricComputer+' => 'SLT 的解决时限',
 
 	'portal:itop-portal' => '标准门户', // This is the portal name that will be displayed in portal dispatcher (eg. URL in menus)
 	'Page:DefaultTitle' => 'iTop - 用户门户',
