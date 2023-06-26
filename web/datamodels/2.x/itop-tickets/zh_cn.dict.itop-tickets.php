@@ -115,7 +115,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:lnkFunctionalCIToTicket' => '关联 功能配置项/工单',
+	'Class:lnkFunctionalCIToTicket' => '关联 功能项/工单',
 	'Class:lnkFunctionalCIToTicket+' => '',
 	'Class:lnkFunctionalCIToTicket/Attribute:ticket_id' => '工单',
 	'Class:lnkFunctionalCIToTicket/Attribute:ticket_id+' => '',

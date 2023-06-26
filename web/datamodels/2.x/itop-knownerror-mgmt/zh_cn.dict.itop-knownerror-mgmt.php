@@ -95,8 +95,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:lnkErrorToFunctionalCI' => '关联 已知问题/功能配置项',
-	'Class:lnkErrorToFunctionalCI+' => '已知问题和功能配置项之间的关联',
+	'Class:lnkErrorToFunctionalCI' => '关联 已知问题/功能项',
+	'Class:lnkErrorToFunctionalCI+' => '已知问题和功能项之间的关联',
 	'Class:lnkErrorToFunctionalCI/Attribute:functionalci_id' => '配置项',
 	'Class:lnkErrorToFunctionalCI/Attribute:functionalci_id+' => '',
 	'Class:lnkErrorToFunctionalCI/Attribute:functionalci_name' => '配置项名称',
