@@ -104,7 +104,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:User' => '用户',
 	'Class:User+' => '用户登录名',
-	'Class:User/Attribute:finalclass' => '账户类型',
+	'Class:User/Attribute:finalclass' => '账号类型',
 	'Class:User/Attribute:finalclass+' => '根本属性的名称',
 	'Class:User/Attribute:contactid' => '联系人 (个人)',
 	'Class:User/Attribute:contactid+' => '来自业务数据的个人明细信息',
@@ -129,7 +129,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:User/Attribute:allowed_org_list' => '可访问的组织',
 	'Class:User/Attribute:allowed_org_list+' => '目标用户可以看到以下组织的数据. 如果没有指定,则无限制.',
 	'Class:User/Attribute:status' => '状态',
-	'Class:User/Attribute:status+' => '账户是否启用.',
+	'Class:User/Attribute:status+' => '账号是否启用.',
 	'Class:User/Attribute:status/Value:enabled' => '启用',
 	'Class:User/Attribute:status/Value:disabled' => '停用',
 
@@ -137,7 +137,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:User/Error:AtLeastOneProfileIsNeeded' => '必须指定至少一个角色给该用户.',
 	'Class:User/Error:AtLeastOneOrganizationIsNeeded' => '必须为该用户指定一个组织.',
 	'Class:User/Error:OrganizationNotAllowed' => '该组织不被允许.',
-	'Class:User/Error:UserOrganizationNotAllowed' => '该用户账户不属于那个组织.',
+	'Class:User/Error:UserOrganizationNotAllowed' => '该用户不属于那个组织.',
 	'Class:User/Error:PersonIsMandatory' => '联系人必填.',
 	'Class:UserInternal' => '内部用户',
 	'Class:UserInternal+' => 'iTop 内部定义的用户',
@@ -181,7 +181,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_UserProfile' => '角色目标用户',
 	'Class:URP_UserProfile+' => '用户的角色',
 	'Class:URP_UserProfile/Attribute:userid' => '用户',
-	'Class:URP_UserProfile/Attribute:userid+' => '用户账户',
+	'Class:URP_UserProfile/Attribute:userid+' => '用户账号',
 	'Class:URP_UserProfile/Attribute:userlogin' => '登录名',
 	'Class:URP_UserProfile/Attribute:userlogin+' => '用户的登录名',
 	'Class:URP_UserProfile/Attribute:profileid' => '角色',
@@ -201,7 +201,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:URP_UserOrg' => '用户组织',
 	'Class:URP_UserOrg+' => '可以访问的组织',
 	'Class:URP_UserOrg/Attribute:userid' => '用户',
-	'Class:URP_UserOrg/Attribute:userid+' => '用户账户',
+	'Class:URP_UserOrg/Attribute:userid+' => '用户账号',
 	'Class:URP_UserOrg/Attribute:userlogin' => '登录名',
 	'Class:URP_UserOrg/Attribute:userlogin+' => '用户的登录名',
 	'Class:URP_UserOrg/Attribute:allowed_org_id' => '组织',
@@ -534,10 +534,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Login:SeparatorOr' => '或者',
 
 	'UI:ResetPwd-Error-WrongLogin' => '\'%1$s\' 用户名无效',
-	'UI:ResetPwd-Error-NotPossible' => '外部账户不允许重置密码.',
-	'UI:ResetPwd-Error-FixedPwd' => '该账户不允许重置密码.',
-	'UI:ResetPwd-Error-NoContact' => '该账户没有关联到个人.',
-	'UI:ResetPwd-Error-NoEmailAtt' => '该账户未关联邮箱地址,请联系管理员.',
+	'UI:ResetPwd-Error-NotPossible' => '外部账号不允许重置密码.',
+	'UI:ResetPwd-Error-FixedPwd' => '该账号不允许重置密码.',
+	'UI:ResetPwd-Error-NoContact' => '该账号没有关联到个人.',
+	'UI:ResetPwd-Error-NoEmailAtt' => '该账号未关联邮箱地址,请联系管理员.',
 	'UI:ResetPwd-Error-NoEmail' => '缺少邮箱地址. 请联系管理员.',
 	'UI:ResetPwd-Error-Send' => '邮件传输存在技术原因. 请联系管理员.',
 	'UI:ResetPwd-EmailSent' => 'Please check your email box and follow the instructions. If you receive no email, please check the login you typed.~~',
@@ -1016,9 +1016,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ProfilesMenu+' => '角色', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:ProfilesMenu:Title' => '角色', // Duplicated into itop-welcome-itil (will be removed from here...)
 
-	'Menu:UserAccountsMenu' => '用户账户', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:UserAccountsMenu+' => '用户账户', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:UserAccountsMenu:Title' => '用户账户', // Duplicated into itop-welcome-itil (will be removed from here...)	
+	'Menu:UserAccountsMenu' => '用户账号', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:UserAccountsMenu+' => '用户账号', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:UserAccountsMenu:Title' => '用户账号', // Duplicated into itop-welcome-itil (will be removed from here...)	
 
 	'UI:iTopVersion:Short' => '%1$s version %2$s',
 	'UI:iTopVersion:Long' => '%1$s version %2$s-%3$s built on %4$s',
@@ -1071,7 +1071,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => '# 受影响的项目: %1$d / %2$d',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => '阈值: %1$d / %2$d',
 	'Portal:Title' => 'iTop 用户门户',
-	'Portal:NoRequestMgmt' => '亲爱的 %1$s, 您被重定向到这个页面,因为您的账户已被设置成角色 \'Portal user\'. 并且, iTop 没有安装 \'需求管理\' 功能. 请联系管理员.',
+	'Portal:NoRequestMgmt' => '亲爱的 %1$s, 您被重定向到这个页面,因为您的账号已被设置成角色 \'Portal user\'. 并且, iTop 没有安装 \'需求管理\' 功能. 请联系管理员.',
 	'Portal:Refresh' => '刷新',
 	'Portal:Back' => '返回',
 	'Portal:WelcomeUserOrg' => 'Welcome %1$s, from %2$s',
