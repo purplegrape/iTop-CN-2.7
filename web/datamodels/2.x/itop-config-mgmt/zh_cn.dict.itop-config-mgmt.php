@@ -615,8 +615,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:PC/Attribute:ram+' => '',
 	'Class:PC/Attribute:type' => '类型',
 	'Class:PC/Attribute:type+' => '',
-	'Class:PC/Attribute:type/Value:desktop' => '桌面型',
-	'Class:PC/Attribute:type/Value:desktop+' => '桌面型',
+	'Class:PC/Attribute:type/Value:desktop' => '台式机',
+	'Class:PC/Attribute:type/Value:desktop+' => '台式机',
 	'Class:PC/Attribute:type/Value:laptop' => '笔记本',
 	'Class:PC/Attribute:type/Value:laptop+' => '笔记本',
 ));
