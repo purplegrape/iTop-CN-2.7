@@ -152,7 +152,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:UserRequest/Attribute:servicesubcategory_id+' => '',
 	'Class:UserRequest/Attribute:servicesubcategory_name' => '子服务名称',
 	'Class:UserRequest/Attribute:servicesubcategory_name+' => '',
-	'Class:UserRequest/Attribute:escalation_flag' => '升级标签',
+	'Class:UserRequest/Attribute:escalation_flag' => '是否升级',
 	'Class:UserRequest/Attribute:escalation_flag+' => '',
 	'Class:UserRequest/Attribute:escalation_flag/Value:no' => '否',
 	'Class:UserRequest/Attribute:escalation_flag/Value:no+' => '否',

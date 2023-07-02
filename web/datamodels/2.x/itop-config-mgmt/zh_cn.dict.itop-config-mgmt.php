@@ -1766,14 +1766,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Group/Attribute:description+' => '',
 	'Class:Group/Attribute:type' => '类型',
 	'Class:Group/Attribute:type+' => '',
-	'Class:Group/Attribute:parent_id' => '上级组',
+	'Class:Group/Attribute:parent_id' => '父级组',
 
 	'Class:Group/Attribute:parent_id+' => '',
 	'Class:Group/Attribute:parent_name' => '名称',
 	'Class:Group/Attribute:parent_name+' => '',
 	'Class:Group/Attribute:ci_list' => '关联的配置项',
 	'Class:Group/Attribute:ci_list+' => '该组关联的所有配置项',
-	'Class:Group/Attribute:parent_id_friendlyname' => '上级配置组',
+	'Class:Group/Attribute:parent_id_friendlyname' => '父级配置组',
 	'Class:Group/Attribute:parent_id_friendlyname+' => '',
 ));
 
@@ -1900,10 +1900,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UserLocal:info' => '基本信息',
 	'Person:personal_info' => '个人信息',
 	'Person:notifiy' => '通知',
-	'Class:Subnet/Tab:IPUsage' => 'IP 使用率',
+	'Class:Subnet/Tab:IPUsage' => 'IP使用率',
 	'Class:Subnet/Tab:IPUsage-explain' => '网卡IP范围: <em>%1$s</em> 到 <em>%2$s</em>',
-	'Class:Subnet/Tab:FreeIPs' => '空闲 IP',
-	'Class:Subnet/Tab:FreeIPs-count' => '空闲 IP: %1$s',
+	'Class:Subnet/Tab:FreeIPs' => '空闲IP',
+	'Class:Subnet/Tab:FreeIPs-count' => '空闲IP: %1$s',
 	'Class:Subnet/Tab:FreeIPs-explain' => '以下是抽取的10个空闲IP',
 	'Class:Document:PreviewTab' => '预览',
 ));
