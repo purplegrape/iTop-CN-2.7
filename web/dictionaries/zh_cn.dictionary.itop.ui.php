@@ -374,7 +374,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 </p>
 <p>'.ITOP_APPLICATION_SHORT.' 是完全开放的,可被集成到现有的 IT 管理架构之中.</p>
 <p>
-<ul>利用这个新一代的 IT 运维门户, 可以帮助您:
+<ul>利用全新一代的 IT 运维门户, 可以帮助您:
 <li>更好地管理越来越复杂的 IT 环境.</li>
 <li>有序实施 ITIL 流程.</li>
 <li>管理 IT 中最重要的资产: 文档.</li>
@@ -387,8 +387,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:WelcomeMenu:MyIncidents' => '分配给我的事件',
 	'UI:AllOrganizations' => ' 所有组织 ',
 	'UI:YourSearch' => '搜索',
-	'UI:LoggedAsMessage' => '以 %1$s 登录',
-	'UI:LoggedAsMessage+Admin' => '以 %1$s 登录(Administrator)',
+	'UI:LoggedAsMessage' => '以 %1$s 身份登录',
+	'UI:LoggedAsMessage+Admin' => '以 %1$s 身份登录(Administrator)',
 	'UI:Button:Logoff' => '注销',
 	'UI:Button:GlobalSearch' => '搜索',
 	'UI:Button:Search' => '搜索',
@@ -471,7 +471,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Error:SMTP:UnknownVendor' => 'OAuth SMTP provider %1$s does not exist  (email_transport_smtp.oauth.provider)~~',
 
 	'UI:GroupBy:Count' => '个数',
-	'UI:GroupBy:Count+' => '元素数量',
+	'UI:GroupBy:Count+' => '项目数',
 	'UI:CountOfObjects' => '%1$d 个对象符合指定的条件.',
 	'UI_CountOfObjectsShort' => '%1$d 个对象.',
 	'UI:NoObject_Class_ToDisplay' => '没有 %1$s 可以显示',
