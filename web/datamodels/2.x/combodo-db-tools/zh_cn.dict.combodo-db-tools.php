@@ -20,19 +20,22 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
 // Database inconsistencies
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	// Dictionary entries go here
 	'Menu:DBToolsMenu' => '数据库完整性',
 	'DBTools:Class' => 'Class~~',
-	'DBTools:Title' => '数据库完整性检查',
+	'DBTools:Title' => '数据库维护工具',
 	'DBTools:ErrorsFound' => '发现错误',
+	'DBTools:Indication' => 'Important: after fixing errors in the database you\'ll have to run the analysis again as new inconsistencies will be generated~~',
+	'DBTools:Disclaimer' => 'DISCLAIMER: BACKUP YOUR DATABASE BEFORE RUNNING THE FIXES~~',
 	'DBTools:Error' => '错误',
 	'DBTools:Count' => '个数',
 	'DBTools:SQLquery' => 'SQL 查询',
 	'DBTools:FixitSQLquery' => 'SQL query To Fix it (indication)~~',
 	'DBTools:SQLresult' => 'SQL 结果',
-	'DBTools:NoError' => '数据库完好',
+	'DBTools:NoError' => '数据库是完整的',
 	'DBTools:HideIds' => '错误列表',
 	'DBTools:ShowIds' => '详细视图',
 	'DBTools:ShowReport' => '报告',

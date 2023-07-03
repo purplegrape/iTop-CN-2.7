@@ -3,7 +3,7 @@
  * Localized data
  *
  * @copyright Copyright (C) 2010-2018 Combodo SARL
- * @license	http://opensource.org/licenses/AGPL-3.0
+ * @license    http://opensource.org/licenses/AGPL-3.0
  *
  * This file is part of iTop.
  *
@@ -20,10 +20,12 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
 //////////////////////////////////////////////////////////////////////
 // Relations
 //////////////////////////////////////////////////////////////////////
 //
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Relation:impacts/Description' => '被影响的元素',
 	'Relation:impacts/DownStream' => '影响...',
@@ -438,7 +440,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:IPPhone' => 'IP 电话',
+	'Class:IPPhone' => 'IP电话',
 	'Class:IPPhone+' => '',
 ));
 
@@ -778,7 +780,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:DBServer' => '数据库服务器',
+	'Class:DBServer' => 'DB服务器',
 	'Class:DBServer+' => '',
 	'Class:DBServer/Attribute:dbschema_list' => '数据库',
 	'Class:DBServer/Attribute:dbschema_list+' => '该数据库服务器上的所有数据库架构',
@@ -789,7 +791,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:WebServer' => 'Web 服务器',
+	'Class:WebServer' => 'Web服务器',
 	'Class:WebServer+' => '',
 	'Class:WebServer/Attribute:webapp_list' => 'Web 应用',
 	'Class:WebServer/Attribute:webapp_list+' => '该web 服务器上的所有web 应用',
@@ -800,7 +802,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:PCSoftware' => 'PC 软件',
+	'Class:PCSoftware' => 'PC软件',
 	'Class:PCSoftware+' => '',
 ));
 
@@ -831,9 +833,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:DatabaseSchema' => '数据库',
+	'Class:DatabaseSchema' => '数据库实例',
 	'Class:DatabaseSchema+' => '',
-	'Class:DatabaseSchema/Attribute:dbserver_id' => '数据库服务器',
+	'Class:DatabaseSchema/Attribute:dbserver_id' => 'DB服务器',
 	'Class:DatabaseSchema/Attribute:dbserver_id+' => '',
 	'Class:DatabaseSchema/Attribute:dbserver_name' => '名称',
 	'Class:DatabaseSchema/Attribute:dbserver_name+' => '',
@@ -844,9 +846,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:WebApplication' => 'Web 应用',
+	'Class:WebApplication' => 'Web应用',
 	'Class:WebApplication+' => '',
-	'Class:WebApplication/Attribute:webserver_id' => 'Web 服务器',
+	'Class:WebApplication/Attribute:webserver_id' => 'Web服务器',
 	'Class:WebApplication/Attribute:webserver_id+' => '',
 	'Class:WebApplication/Attribute:webserver_name' => '名称',
 	'Class:WebApplication/Attribute:webserver_name+' => '',
@@ -1572,13 +1574,13 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:IPInterface' => 'IP Interface',
+	'Class:IPInterface' => 'IP接口',
 	'Class:IPInterface+' => '',
-	'Class:IPInterface/Attribute:ipaddress' => 'IP 地址',
+	'Class:IPInterface/Attribute:ipaddress' => 'IP地址',
 	'Class:IPInterface/Attribute:ipaddress+' => '',
 
 
-	'Class:IPInterface/Attribute:macaddress' => 'MAC 地址',
+	'Class:IPInterface/Attribute:macaddress' => 'MAC地址',
 	'Class:IPInterface/Attribute:macaddress+' => '',
 	'Class:IPInterface/Attribute:comment' => '备注',
 	'Class:IPInterface/Attribute:coment+' => '',

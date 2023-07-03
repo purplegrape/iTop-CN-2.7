@@ -2,9 +2,8 @@
 /**
  * Localized data
  *
- * @author    Robert Deng <denglx@gmail.com>
  * @copyright Copyright (C) 2010-2018 Combodo SARL
- * @license	http://opensource.org/licenses/AGPL-3.0
+ * @license    http://opensource.org/licenses/AGPL-3.0
  *
  * This file is part of iTop.
  *
@@ -21,17 +20,22 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
+
 //////////////////////////////////////////////////////////////////////
 // Classes in 'gui'
 //////////////////////////////////////////////////////////////////////
 //
+
 //////////////////////////////////////////////////////////////////////
 // Classes in 'application'
 //////////////////////////////////////////////////////////////////////
 //
+
 //
 // Class: AuditCategory
 //
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:AuditCategory' => '审计类别',
 	'Class:AuditCategory+' => '全部审计中的一项',
@@ -531,7 +535,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Login:ForgotPwdForm+' => 'iTop 将会给您发送一封密码重置邮件.',
 	'UI:Login:ResetPassword' => '立即发送!',
 	'UI:Login:ResetPwdFailed' => '邮件发送失败: %1$s',
-	'UI:Login:SeparatorOr' => '或者',
+	'UI:Login:SeparatorOr' => '或',
 
 	'UI:ResetPwd-Error-WrongLogin' => '\'%1$s\' 用户名无效',
 	'UI:ResetPwd-Error-NotPossible' => '外部账号不允许重置密码.',
@@ -550,29 +554,29 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:ResetPwd-Ready' => '密码已修改成功.',
 	'UI:ResetPwd-Login' => '点击这里登录...',
 
-	'UI:Login:About' => '',
+	'UI:Login:About' => ITOP_APPLICATION.' Powered by Combodo',
 	'UI:Login:ChangeYourPassword' => '修改您的密码',
 	'UI:Login:OldPasswordPrompt' => '旧密码',
 	'UI:Login:NewPasswordPrompt' => '新密码',
 	'UI:Login:RetypeNewPasswordPrompt' => '重复新密码',
 	'UI:Login:IncorrectOldPassword' => '错误: 旧密码错误',
 	'UI:LogOffMenu' => '注销',
-	'UI:LogOff:ThankYou' => '感谢使用iTop',
+	'UI:LogOff:ThankYou' => '感谢使用 '.ITOP_APPLICATION,
 	'UI:LogOff:ClickHereToLoginAgain' => '点击这里再次登录...',
 	'UI:ChangePwdMenu' => '修改密码...',
 	'UI:Login:PasswordChanged' => '密码已成功设置!',
-	'UI:AccessRO-All' => 'iTop 是只读的',
-	'UI:AccessRO-Users' => 'iTop 对于终端用户是只读的',
+	'UI:AccessRO-All' => ITOP_APPLICATION.' 是只读的',
+	'UI:AccessRO-Users' => ITOP_APPLICATION.' 对终端用户是只读的',
 	'UI:ApplicationEnvironment' => '应用环境: %1$s',
 	'UI:Login:RetypePwdDoesNotMatch' => '新密码输入不一致!',
-	'UI:Button:Login' => '登录iTop',
-	'UI:Login:Error:AccessRestricted' => 'iTop 访问被限制. 请联系管理员.',
+	'UI:Button:Login' => '进入 '.ITOP_APPLICATION,
+	'UI:Login:Error:AccessRestricted' => ITOP_APPLICATION_SHORT.' 访问被限制. 请联系 '.ITOP_APPLICATION_SHORT.' 管理员.',
 	'UI:Login:Error:AccessAdmin' => '只有具有管理员权限的人才能访问. 请联系管理员.',
 	'UI:Login:Error:WrongOrganizationName' => 'Unknown organization~~',
 	'UI:Login:Error:MultipleContactsHaveSameEmail' => 'Multiple contacts have the same e-mail~~',
 	'UI:Login:Error:NoValidProfiles' => 'No valid profile provided~~',
 	'UI:CSVImport:MappingSelectOne' => '-- 请选择 --',
-	'UI:CSVImport:MappingNotApplicable' => '-- 忽略该栏 --',
+	'UI:CSVImport:MappingNotApplicable' => '-- 忽略该字段 --',
 	'UI:CSVImport:NoData' => '数据为空..., 请提供数据!',
 	'UI:Title:DataPreview' => '数据预览',
 	'UI:CSVImport:ErrorOnlyOneColumn' => '错误: 数据仅包含一列. 您选择了合适的分隔符了吗?',
@@ -580,7 +584,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:DataLine1' => '数据行 1',
 	'UI:CSVImport:DataLine2' => '数据行 2',
 	'UI:CSVImport:idField' => 'id (主键)',
-	'UI:Title:BulkImport' => 'iTop - 批量导入',
+	'UI:Title:BulkImport' => ITOP_APPLICATION_SHORT.' - 批量导入',
 	'UI:Title:BulkImport+' => 'CSV 导入向导',
 	'UI:Title:BulkSynchro_nbItem_ofClass_class' => '同步 %2$s 个对象中的 %1$d',
 	'UI:CSVImport:ClassesSelectOne' => '-- 请选择 --',
@@ -620,7 +624,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:CommentsAndHeader' => '备注和头',
 	'UI:CSVImport:SelectClass' => '请选择要导入的类别:',
 	'UI:CSVImport:AdvancedMode' => '高级模式',
-	'UI:CSVImport:AdvancedMode+' => '在高级模式中,对象的"id" (主键) 可以被用来修改和重命名对象.不管怎样,列 "id" (如果存在) 只能被用做一个搜索条件,不能与其它搜索条件混用.',
+	'UI:CSVImport:AdvancedMode+' => '在高级模式中,对象的"id" (主键) 可以被用来修改和重命名对象.'.
+		'不管怎样,列 "id" (如果存在) 只能被用做一个搜索条件,不能与其它搜索条件混用.',
 	'UI:CSVImport:SelectAClassFirst' => '要配置映射,请先选择一个类.',
 	'UI:CSVImport:HeaderFields' => '字段',
 	'UI:CSVImport:HeaderMappings' => '映射',
@@ -629,7 +634,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:AlertMultipleMapping' => '请确保目标区域仅被映射一次.',
 	'UI:CSVImport:AlertNoSearchCriteria' => '请选择至少一个搜索条件',
 	'UI:CSVImport:Encoding' => '字符编码',
-	'UI:UniversalSearchTitle' => 'iTop - 全局搜索',
+	'UI:UniversalSearchTitle' => ITOP_APPLICATION_SHORT.' - 全局搜索',
 	'UI:UniversalSearch:Error' => '错误: %1$s',
 	'UI:UniversalSearch:LabelSelectTheClass' => '选择要搜索的类别: ',
 
@@ -679,8 +684,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVExport:LostChars' => '编码问题',
 	'UI:CSVExport:LostChars+' => 'The downloaded file will be encoded into %1$s. iTop has detected some characters that are not compatible with this format. Those characters will either be replaced by a substitute (e.g. accentuated chars losing the accent), or they will be discarded. You can copy/paste the data from your web browser. Alternatively, you can contact your administrator to change the encoding (See parameter \'csv_file_default_charset\').',
 
-	'UI:Audit:Title' => 'iTop - CMDB 审计',
-	'UI:Audit:InteractiveAudit' => '交互审计',
+	'UI:Audit:Title' => ITOP_APPLICATION_SHORT.' - CMDB 审计',
+	'UI:Audit:InteractiveAudit' => '交互式审计',
 	'UI:Audit:HeaderAuditRule' => '审计规则',
 	'UI:Audit:HeaderNbObjects' => '# 对象',
 	'UI:Audit:HeaderNbErrors' => '# 错误',
@@ -688,7 +693,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Audit:ErrorIn_Rule_Reason' => 'OQL Error in the Rule %1$s: %2$s.',
 	'UI:Audit:ErrorIn_Category_Reason' => 'OQL Error in the Category %1$s: %2$s.',
 
-	'UI:RunQuery:Title' => 'iTop - OQL 查询评估',
+	'UI:RunQuery:Title' => ITOP_APPLICATION_SHORT.' - OQL 查询评估',
 	'UI:RunQuery:QueryExamples' => '示例查询',
 	'UI:RunQuery:HeaderPurpose' => '目标',
 	'UI:RunQuery:HeaderPurpose+' => '该查询的解释',
@@ -705,9 +710,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:RunQuery:Error' => '运行该查询时发生了错误: %1$s',
 	'UI:Query:UrlForExcel' => 'URL to use for MS-Excel web queries',
 	'UI:Query:UrlV1' => 'The list of fields has been left unspecified. The page <em>export-V2.php</em> cannot be invoked without this information. Therefore, the URL suggested here below points to the legacy page: <em>export.php</em>. This legacy version of the export has the following limitation: the list of exported fields may vary depending on the output format and the data model of iTop. <br/>Should you want to garantee that the list of exported columns will remain stable on the long run, then you must specify a value for the attribute "Fields" and use the page <em>export-V2.php</em>.',
-	'UI:Schema:Title' => 'iTop 对象模型',
+	'UI:Schema:Title' => ITOP_APPLICATION_SHORT.' 对象模型',
 	'UI:Schema:CategoryMenuItem' => '类别 <b>%1$s</b>',
-	'UI:Schema:Relationships' => '关联',
+	'UI:Schema:Relationships' => '关系',
 	'UI:Schema:AbstractClass' => '抽象类: 该类不能实例化对象.',
 	'UI:Schema:NonAbstractClass' => '非抽象类: 该类可以实例化对象.',
 	'UI:Schema:ClassHierarchyTitle' => '类层级',
@@ -820,9 +825,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Delete:PleaseDoTheManualOperations' => '在删除该对象之前, 请先手工完成上述列出的操作',
 	'UI:Delect:Confirm_Object' => '请确认要删除 %1$s.',
 	'UI:Delect:Confirm_Count_ObjectsOf_Class' => '请确认要删除下列 %2$s 类的 %1$d 个对象.',
-	'UI:WelcomeToITop' => '欢迎使用iTop ',
-	'UI:DetailsPageTitle' => 'iTop - %1$s - %2$s 详细内容',
-	'UI:ErrorPageTitle' => 'iTop - 错误',
+	'UI:WelcomeToITop' => '欢迎使用 '.ITOP_APPLICATION,
+	'UI:DetailsPageTitle' => ITOP_APPLICATION_SHORT.' - %1$s - %2$s 详细内容',
+	'UI:ErrorPageTitle' => ITOP_APPLICATION_SHORT.' - 错误',
 	'UI:ObjectDoesNotExist' => '抱歉, 该对象不存在 (或无权浏览该对象).',
 	'UI:ObjectArchived' => '对象已被归档. 请启用归档模式或联系管理员.',
 	'Tag:Archived' => '已归档',
@@ -832,7 +837,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Tag:Synchronized' => '已同步',
 	'ObjectRef:Archived' => '已归档',
 	'ObjectRef:Obsolete' => '已废弃',
-	'UI:SearchResultsPageTitle' => 'iTop - 搜索结果',
+	'UI:SearchResultsPageTitle' => ITOP_APPLICATION_SHORT.' - 搜索结果',
 	'UI:SearchResultsTitle' => '搜索结果',
 	'UI:SearchResultsTitle+' => '全文搜索结果',
 	'UI:Search:NoSearch' => '没有可搜索的内容',
@@ -842,28 +847,28 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:FullTextSearchTitle_Text' => '"%1$s" 的结果:',
 	'UI:Search:Count_ObjectsOf_Class_Found' => '找到 %1$d 个 %2$s .',
 	'UI:Search:NoObjectFound' => '未发现对象.',
-	'UI:ModificationPageTitle_Object_Class' => 'iTop - %1$s - %2$s 修改',
+	'UI:ModificationPageTitle_Object_Class' => ITOP_APPLICATION_SHORT.' - %1$s - %2$s 修改',
 	'UI:ModificationTitle_Class_Object' => '修改 %1$s: <span class=\\"hilite\\">%2$s</span>',
-	'UI:ClonePageTitle_Object_Class' => 'iTop - 克隆 %1$s - %2$s 修改',
+	'UI:ClonePageTitle_Object_Class' => ITOP_APPLICATION_SHORT.' - 克隆 %1$s - %2$s 修改',
 	'UI:CloneTitle_Class_Object' => '克隆 %1$s: <span class=\\"hilite\\">%2$s</span>',
-	'UI:CreationPageTitle_Class' => 'iTop - 新建 %1$s ',
+	'UI:CreationPageTitle_Class' => ITOP_APPLICATION_SHORT.' - 新建 %1$s ',
 	'UI:CreationTitle_Class' => '新建 %1$s',
 	'UI:SelectTheTypeOf_Class_ToCreate' => '选择 %1$s 的类别:',
 	'UI:Class_Object_NotUpdated' => '未发现变化, %1$s (%2$s) <strong>没有</strong> 被更新.',
 	'UI:Class_Object_Updated' => '%1$s (%2$s) 已更新.',
-	'UI:BulkDeletePageTitle' => 'iTop - 批量删除',
+	'UI:BulkDeletePageTitle' => ITOP_APPLICATION_SHORT.' - 批量删除',
 	'UI:BulkDeleteTitle' => '选择您要删除的对象:',
-	'UI:PageTitle:ObjectCreated' => 'iTop 对象已创建.',
+	'UI:PageTitle:ObjectCreated' => ITOP_APPLICATION_SHORT.' 对象已创建.',
 	'UI:Title:Object_Of_Class_Created' => '%1$s - %2$s 已创建.',
 	'UI:Apply_Stimulus_On_Object_In_State_ToTarget_State' => '应用 %1$s 在对象: %2$s 上, 从 %3$s 状态到目标状态: %4$s.',
 	'UI:ObjectCouldNotBeWritten' => '对象不能写入: %1$s',
-	'UI:PageTitle:FatalError' => 'iTop - 致命错误',
+	'UI:PageTitle:FatalError' => ITOP_APPLICATION_SHORT.' - 致命错误',
 	'UI:SystemIntrusion' => '访问被禁止. 您正尝试未被许可的操作.',
-	'UI:FatalErrorMessage' => '致命错误, iTop 无法继续.',
+	'UI:FatalErrorMessage' => '致命错误, '.ITOP_APPLICATION_SHORT.' 无法继续.',
 	'UI:Error_Details' => '错误: %1$s.',
 
-	'UI:PageTitle:ClassProjections' => 'iTop 用户管理 - 类映射',
-	'UI:PageTitle:ProfileProjections' => 'iTop 用户管理 - 角色映射',
+	'UI:PageTitle:ClassProjections' => ITOP_APPLICATION_SHORT.' 用户管理 - 类型规划',
+	'UI:PageTitle:ProfileProjections' => ITOP_APPLICATION_SHORT.' 用户管理 - 角色规划',
 	'UI:UserManagement:Class' => '类',
 	'UI:UserManagement:Class+' => '对象的类',
 	'UI:UserManagement:ProjectedObject' => '对象',
@@ -902,9 +907,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:UserManagement:LinkBetween_User_And_Profile' => '关联 %1$s 和 %2$s',
 	'UI:UserManagement:LinkBetween_User_And_Org' => '关联 %1$s 和 %2$s',
 
-	'Menu:AdminTools' => '管理工具', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:AdminTools' => '管理', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:AdminTools+' => '管理工具', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:AdminTools?' => '具有管理员角色的用户才能获得的工具', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:AdminTools?' => '具有管理员角色的用户才能使用的工具', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:SystemTools' => '系统',
 
 	'UI:ChangeManagementMenu' => '变更管理',
@@ -952,7 +957,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI-ContactsMenu-ContactsByStatus' => '按状态划分联系人',
 
 	'Menu:CSVImportMenu' => 'CSV 导入', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:CSVImportMenu+' => '批量创建或修改', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:CSVImportMenu+' => '批量创建或更新', // Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:DataModelMenu' => '数据模型', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:DataModelMenu+' => '数据模型概况', // Duplicated into itop-welcome-itil (will be removed from here...)
@@ -965,11 +970,11 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:NotificationsMenu:Title' => '配置 <span class="hilite">通知</span>',
 	'UI:NotificationsMenu:Help' => '帮助',
 	'UI:NotificationsMenu:HelpContent' => '<p>在iTop 中, 通知可以被自定义. 它们是基于两个对象集: <i>触发器和操作</i>.</p>
-<p><i><b>触发器</b></i> 定义了什么时候发送通知. iTop core 自带一些触发器, 另一些触发器可由扩展提供:
+<p><i><b>触发器</b></i> 定义了什么时候发送通知. iTop 核心自带一些触发器, 另一些触发器可由扩展提供:
 <ol>
-	<li>Some triggers are executed when an object of the specified class is <b>created</b>, <b>updated</b> or <b>deleted</b>.</li>
-	<li>Some triggers are executed when an object of a given class <b>enter</b> or <b>leave</b> a specified </b>state</b>.</li>
-	<li>Some triggers are executed when a <b>threshold on TTO or TTR</b> has been <b>reached</b>.</li>
+	<li>当特定对象 <b>创建</b>, <b>更新</b> 或 <b>删除</b> 时, 某些操作会被触发.</li>
+	<li>当特定对象 <b>进入</b> or <b>离开</b> 特定 </b>状态</b> 时, 某些操作会被触发.</li>
+	<li>当特定对象 <b>达到</b> <b> TTO 或 TTR 阈值 </b> 时, 某些操作会被触发.</b>.</li>
 </ol>
 </p>
 <p>
@@ -1016,9 +1021,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:ProfilesMenu+' => '角色', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:ProfilesMenu:Title' => '角色', // Duplicated into itop-welcome-itil (will be removed from here...)
 
-	'Menu:UserAccountsMenu' => '用户账号', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:UserAccountsMenu+' => '用户账号', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:UserAccountsMenu:Title' => '用户账号', // Duplicated into itop-welcome-itil (will be removed from here...)	
+	'Menu:UserAccountsMenu' => '账号', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:UserAccountsMenu+' => '账号', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:UserAccountsMenu:Title' => '账号', // Duplicated into itop-welcome-itil (will be removed from here...)	
 
 	'UI:iTopVersion:Short' => '%1$s version %2$s',
 	'UI:iTopVersion:Long' => '%1$s version %2$s-%3$s built on %4$s',
@@ -1070,7 +1075,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:RelationTooltip:Redundancy' => '冗余',
 	'UI:RelationTooltip:ImpactedItems_N_of_M' => '# 受影响的项目: %1$d / %2$d',
 	'UI:RelationTooltip:CriticalThreshold_N_of_M' => '阈值: %1$d / %2$d',
-	'Portal:Title' => 'iTop 用户门户',
+	'Portal:Title' => ITOP_APPLICATION_SHORT.' 用户门户',
 	'Portal:NoRequestMgmt' => '亲爱的 %1$s, 您被重定向到这个页面,因为您的账号已被设置成角色 \'Portal user\'. 并且, iTop 没有安装 \'需求管理\' 功能. 请联系管理员.',
 	'Portal:Refresh' => '刷新',
 	'Portal:Back' => '返回',
@@ -1146,7 +1151,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:ArchiveMode:Banner' => '归档模式',
 	'UI:ArchiveMode:Banner+' => '已归档的对象可见但不允许修改',
 	'UI:FavoriteOrganizations' => '快速访问',
-	'UI:FavoriteOrganizations+' => '进入组织下的列表,可实现通过下拉菜单快速访问.请注意,这并不是一项安全设置, 其它组织的对象依然可以通过选择 "所有组织" 下拉列表看到.',
+	'UI:FavoriteOrganizations+' => '进入组织下的列表,可实现通过下拉菜单快速访问. '.
+		'请注意,这并不是一项安全设置, 其它组织的对象依然可以通过选择 "所有组织" 下拉列表看到.',
 	'UI:FavoriteLanguage' => '用户界面',
 	'UI:Favorites:SelectYourLanguage' => '选择语言',
 	'UI:FavoriteOtherSettings' => '其它设置',
@@ -1205,7 +1211,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:DashboardEdit:Title' => '仪表盘编辑器',
 	'UI:DashboardEdit:DashboardTitle' => '标题',
 	'UI:DashboardEdit:AutoReload' => '自动刷新',
-	'UI:DashboardEdit:AutoReloadSec' => '自动刷新间隔(秒)',
+	'UI:DashboardEdit:AutoReloadSec' => '刷新频率(秒)',
 	'UI:DashboardEdit:AutoReloadSec+' => '最小值是 %1$d 秒',
 
 	'UI:DashboardEdit:Layout' => '布局',
@@ -1299,9 +1305,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:DashletHeaderDynamic:Prop-GroupBy' => 'Group by',
 	'UI:DashletHeaderDynamic:Prop-Values' => '值',
 
-	'UI:DashletBadge:Label' => 'Badge',
+	'UI:DashletBadge:Label' => '证件',
 	'UI:DashletBadge:Description' => 'Object Icon with new/search',
-	'UI:DashletBadge:Prop-Class' => 'Class',
+	'UI:DashletBadge:Prop-Class' => '类型',
 
 	'DayOfWeek-Sunday' => '周日',
 	'DayOfWeek-Monday' => '周一',
@@ -1399,12 +1405,12 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:AddAnExisting_Class' => '添加 %1$s...',
 	'UI:SelectionOf_Class' => '选择 %1$s',
 
-	'UI:AboutBox' => '关于iTop...',
-	'UI:About:Title' => '关于iTop',
+	'UI:AboutBox' => '关于 '.ITOP_APPLICATION_SHORT.'...',
+	'UI:About:Title' => '关于 '.ITOP_APPLICATION_SHORT,
 	'UI:About:DataModel' => '数据模型',
 	'UI:About:Support' => '支持信息',
 	'UI:About:Licenses' => '许可证',
-	'UI:About:InstallationOptions' => '已安装的模块',
+	'UI:About:InstallationOptions' => '安装选项',
 	'UI:About:ManualExtensionSource' => '扩展',
 	'UI:About:Extension_Version' => '版本: %1$s',
 	'UI:About:RemoteExtensionSource' => '数据',
@@ -1425,7 +1431,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'ExcelExport:PreparingExport' => '正在准备导出...',
 	'ExcelExport:Statistics' => '统计',
 	'portal:legacy_portal' => '终端用户门户',
-	'portal:backoffice' => 'iTop 后台用户界面',
+	'portal:backoffice' => ITOP_APPLICATION_SHORT.' 后台用户界面',
 
 	'UI:CurrentObjectIsLockedBy_User' => '对象被锁住,因为正在修改 %1$s.',
 	'UI:CurrentObjectIsLockedBy_User_Explanation' => '该对象正在被 %1$s 修改. 您的修改无法提交因为它们会冲突.',

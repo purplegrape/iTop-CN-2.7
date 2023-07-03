@@ -3,7 +3,7 @@
  * Localized data
  *
  * @copyright Copyright (C) 2010-2018 Combodo SARL
- * @license	http://opensource.org/licenses/AGPL-3.0
+ * @license    http://opensource.org/licenses/AGPL-3.0
  *
  * This file is part of iTop.
  *
@@ -20,6 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:DeletedObjectLabel' => '%1s (已删除)',
 	'Core:DeletedObjectTip' => 'The object has been deleted on %1$s (%2$s)',
@@ -32,7 +33,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeLinkedSet' => '对象数组',
 	'Core:AttributeLinkedSet+' => 'Any kind of objects of the same class or subclass',
 
-	'Core:AttributeDashboard' => '面板',
+	'Core:AttributeDashboard' => '仪表盘',
 	'Core:AttributeDashboard+' => '',
 
 	'Core:AttributePhoneNumber' => '电话号码',
@@ -43,7 +44,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'Core:AttributeTagSet' => '清单',
 	'Core:AttributeTagSet+' => '',
-	'Core:AttributeSet:placeholder' => '请点击这里添加',
+	'Core:AttributeSet:placeholder' => '请点击添加',
 	'Core:AttributeClassAttCodeSet:ItemLabel:AttributeFromClass' => '%1$s (%2$s)~~',
 	'Core:AttributeClassAttCodeSet:ItemLabel:AttributeFromOneChildClass' => '%1$s (%2$s from %3$s)~~',
 	'Core:AttributeClassAttCodeSet:ItemLabel:AttributeFromSeveralChildClasses' => '%1$s (%2$s from child classes)~~',
