@@ -347,36 +347,36 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'BooleanLabel:yes' => '是',
 	'BooleanLabel:no' => '否',
-	'UI:Login:Title' => 'iTop 登录',
+	'UI:Login:Title' => ITOP_APPLICATION_SHORT.' 登录',
 	'Menu:WelcomeMenu' => '欢迎', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenu+' => '欢迎使用iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:WelcomeMenu+' => '欢迎使用 '.ITOP_APPLICATION_SHORT, // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:WelcomeMenuPage' => '欢迎', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:WelcomeMenuPage+' => '欢迎使用iTop', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'UI:WelcomeMenu:Title' => '欢迎使用iTop',
+	'Menu:WelcomeMenuPage+' => '欢迎使用 '.ITOP_APPLICATION_SHORT, // Duplicated into itop-welcome-itil (will be removed from here...)
+	'UI:WelcomeMenu:Title' => '欢迎使用 '.ITOP_APPLICATION_SHORT,
 
-	'UI:WelcomeMenu:LeftBlock' => '<p>iTop 是完全开源的 IT 运维门户.</p>
+	'UI:WelcomeMenu:LeftBlock' => '<p>'.ITOP_APPLICATION_SHORT.' 是完全开源的 IT 运维门户.</p>
 <ul>它包括:
-<li>完整的CMDB(Configuration management database),用于登记和管理您的 IT 资产.</li>
+<li>完整的 CMDB (配置管理数据库),用于登记和管理您的 IT 资产.</li>
 <li>事件管理模块用于跟踪和传递所有发生在 IT 系统中的事件.</li>
 <li>变更管理模块用于规划和跟踪 IT 环境中发生的变化.</li>
 <li>已知错误数据库可加速事件的处理.</li>
 <li>停机模块记录所有计划内的停机并通知对应的联系人.</li>
 <li>通过仪表盘迅速获得 IT 状态的概况.</li>
 </ul>
-<p>所有模块可以各自独立地、一步步地部署.</p>',
+<p>所有模块可以各自独立地,一步步地部署.</p>',
 
-	'UI:WelcomeMenu:RightBlock' => '<p>iTop 是面向服务供应商的, 它使得 IT 工程师能够更方便地管理多客户和多组织.
-<ul>iTop 提供功能丰富的业务处理流程:
+	'UI:WelcomeMenu:RightBlock' => '<p>'.ITOP_APPLICATION_SHORT.' 是面向服务供应商的, 它使得工程师更轻易的管理多客户和多组织.
+<ul>'.ITOP_APPLICATION_SHORT.' 提供功能丰富的业务处理流程:
 <li>提高 IT 管理效率</li> 
-<li>提升 IT 可操作能力</li> 
-<li>提高用户满意度,提升业务能力.</li>
+<li>提升 IT 运维能力</li> 
+<li>提升用户满意度,深入了解业务.</li>
 </ul>
 </p>
-<p>iTop 是完全开放的,可被集成到现有的IT 管理架构之中.</p>
+<p>'.ITOP_APPLICATION_SHORT.' 是完全开放的,可被集成到现有的 IT 管理架构之中.</p>
 <p>
 <ul>利用这个新一代的 IT 运维门户, 可以帮助您:
 <li>更好地管理越来越复杂的 IT 环境.</li>
-<li>逐步实现 ITIL 流程.</li>
+<li>有序实施 ITIL 流程.</li>
 <li>管理 IT 中最重要的资产: 文档.</li>
 </ul>
 </p>',
@@ -580,7 +580,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:NoData' => '数据为空..., 请提供数据!',
 	'UI:Title:DataPreview' => '数据预览',
 	'UI:CSVImport:ErrorOnlyOneColumn' => '错误: 数据仅包含一列. 您选择了合适的分隔符了吗?',
-	'UI:CSVImport:FieldName' => '栏 %1$d',
+	'UI:CSVImport:FieldName' => '字段 %1$d',
 	'UI:CSVImport:DataLine1' => '数据行 1',
 	'UI:CSVImport:DataLine2' => '数据行 2',
 	'UI:CSVImport:idField' => 'id (主键)',
@@ -630,7 +630,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:CSVImport:HeaderFields' => '字段',
 	'UI:CSVImport:HeaderMappings' => '映射',
 	'UI:CSVImport:HeaderSearch' => '搜索?',
-	'UI:CSVImport:AlertIncompleteMapping' => '请为每个栏选择一个映射.',
+	'UI:CSVImport:AlertIncompleteMapping' => '请为每个字段选择一个映射.',
 	'UI:CSVImport:AlertMultipleMapping' => '请确保目标区域仅被映射一次.',
 	'UI:CSVImport:AlertNoSearchCriteria' => '请选择至少一个搜索条件',
 	'UI:CSVImport:Encoding' => '字符编码',
@@ -697,13 +697,13 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:RunQuery:QueryExamples' => '示例查询',
 	'UI:RunQuery:HeaderPurpose' => '目标',
 	'UI:RunQuery:HeaderPurpose+' => '该查询的解释',
-	'UI:RunQuery:HeaderOQLExpression' => 'OQL 表达式',
-	'UI:RunQuery:HeaderOQLExpression+' => 'OQL 语法表示的查询',
+	'UI:RunQuery:HeaderOQLExpression' => 'OQL表达式',
+	'UI:RunQuery:HeaderOQLExpression+' => 'OQL语法表示的查询',
 	'UI:RunQuery:ExpressionToEvaluate' => '请输入表达式: ',
 	'UI:RunQuery:MoreInfo' => '该查询的更多信息: ',
-	'UI:RunQuery:DevelopedQuery' => '快捷查询表达式: ',
+	'UI:RunQuery:DevelopedQuery' => '高级查询表达式: ',
 	'UI:RunQuery:SerializedFilter' => '序列化的筛选器: ',
-	'UI:RunQuery:DevelopedOQL' => '高级 OQL',
+	'UI:RunQuery:DevelopedOQL' => '高级OQL',
 	'UI:RunQuery:DevelopedOQLCount' => 'Developed OQL for count~~',
 	'UI:RunQuery:ResultSQLCount' => 'Resulting SQL for count~~',
 	'UI:RunQuery:ResultSQL' => 'Resulting SQL~~',
@@ -775,7 +775,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Schema:DisplaySelector/Label' => '标记',
 	'UI:Schema:DisplaySelector/Code' => '编码',
 	'UI:Schema:Attribute/Filter' => '筛选器',
-	'UI:Schema:DefaultNullValue' => 'Default null : "%1$s"',
+	'UI:Schema:DefaultNullValue' => '默认为空 : "%1$s"',
 	'UI:LinksWidget:Autocomplete+' => '输入前3个字符...',
 	'UI:Edit:TestQuery' => '测试查询',
 	'UI:Combo:SelectValue' => '--- 请选择 ---',
@@ -969,11 +969,11 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:NotificationsMenu+' => '通知的配置', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'UI:NotificationsMenu:Title' => '配置 <span class="hilite">通知</span>',
 	'UI:NotificationsMenu:Help' => '帮助',
-	'UI:NotificationsMenu:HelpContent' => '<p>在iTop 中, 通知可以被自定义. 它们是基于两个对象集: <i>触发器和操作</i>.</p>
+	'UI:NotificationsMenu:HelpContent' => '<p>在 '.ITOP_APPLICATION_SHORT.' 中, 通知可以被自定义. 它们是基于两个对象集: <i>触发器和操作</i>.</p>
 <p><i><b>触发器</b></i> 定义了什么时候发送通知. iTop 核心自带一些触发器, 另一些触发器可由扩展提供:
 <ol>
 	<li>当特定对象 <b>创建</b>, <b>更新</b> 或 <b>删除</b> 时, 某些操作会被触发.</li>
-	<li>当特定对象 <b>进入</b> or <b>离开</b> 特定 </b>状态</b> 时, 某些操作会被触发.</li>
+	<li>当特定对象 <b>进入</b> 或 <b>离开</b> 特定 </b>状态</b> 时, 某些操作会被触发.</li>
 	<li>当特定对象 <b>达到</b> <b> TTO 或 TTR 阈值 </b> 时, 某些操作会被触发.</b>.</li>
 </ol>
 </p>
@@ -981,7 +981,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 <i><b>操作</b></i> 定义了触发时要执行的动作. 目前, 仅有的一种操作就是外发邮件.
 包含邮件模板(定义发件人、收件人、重要性等).
 </p>
-<p>这里有一个专用的页面: <a href="../setup/email.test.php" target="_blank">email.test.php</a> 可用于测试和调试PHP 的邮件配置.</p>
+<p>专用页面: <a href="../setup/email.test.php" target="_blank">email.test.php</a> 可用于测试和调试PHP的邮件配置.</p>
 <p>若要执行, 操作必须和触发器相关联.
 当与一个触发器关联时, 每个操作都被赋予一个顺序号, 规定了按什么样的顺序执行这些操作.</p>~~',
 	'UI:NotificationsMenu:Triggers' => '触发器',
