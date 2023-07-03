@@ -1,0 +1,20 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: generate tar file
+      run: mv web itop ;tar cf itop.tar itop
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag itop-cn:2.7.8
