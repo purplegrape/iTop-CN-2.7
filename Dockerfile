@@ -17,7 +17,8 @@ RUN mkdir -p /var/www/html ;rm -rf /var/www/html
 
 ADD itop.tar /usr/src/
 
-ADD --chmod=755 entrypoint.sh /
+ADD entrypoint.sh /
+RUN chmod 755 /entrypoint.sh
 
 ENTRYPOINT [ "/entrypoint.sh" ]
 CMD [ "apache2ctl", "-D", "FOREGROUND"]
