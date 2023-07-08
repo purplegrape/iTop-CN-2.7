@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.title=iTop \
       org.opencontainers.image.authors="purplegrape4@gmail.com"
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update ;\
-    DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y apache2 libapache2-mod-php7.4 php7.4-opcache php7.4-curl php7.4-gd php7.4-mbstring php7.4-mysql php7.4-ldap php7.4-xml php7.4-soap php7.4-zip php-apcu graphviz tzdata rsync ;\
+    DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y apache2 libapache2-mod-php7.4 php7.4-opcache php7.4-curl php7.4-gd php7.4-mbstring php7.4-mysql php7.4-ldap php7.4-xml php7.4-soap php7.4-zip php-apcu graphviz mysql-client tzdata rsync ;\
     DEBIAN_FRONTEND=noninteractive apt-get autoclean
 
 RUN sed -i '/AllowOverride/s/None/All/g' /etc/apache2/apache2.conf
