@@ -27,13 +27,13 @@
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Relation:impacts/Description' => '被影响的元素',
+	'Relation:impacts/Description' => '受影响的因子',
 	'Relation:impacts/DownStream' => '影响...',
-	'Relation:impacts/DownStream+' => '被影响的元素',
+	'Relation:impacts/DownStream+' => '被影响的因子',
 	'Relation:impacts/UpStream' => '依赖于...',
-	'Relation:impacts/UpStream+' => '该元素依赖的元素...',
+	'Relation:impacts/UpStream+' => '该元素依赖的因子...',
 	// Legacy entries
-	'Relation:depends on/Description' => '该元素依赖的元素...',
+	'Relation:depends on/Description' => '该元素依赖的因子...',
 	'Relation:depends on/DownStream' => '依赖于...',
 	'Relation:depends on/UpStream' => '影响...',
 	'Relation:impacts/LoadData'       => '加载数据',
@@ -319,7 +319,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:FunctionalCI/Attribute:org_id+' => '',
 	'Class:FunctionalCI/Attribute:organization_name' => '组织名称',
 	'Class:FunctionalCI/Attribute:organization_name+' => '通用名',
-	'Class:FunctionalCI/Attribute:business_criticity' => '业务重要性',
+	'Class:FunctionalCI/Attribute:business_criticity' => '业务级别',
 	'Class:FunctionalCI/Attribute:business_criticity+' => '',
 	'Class:FunctionalCI/Attribute:business_criticity/Value:high' => '高',
 	'Class:FunctionalCI/Attribute:business_criticity/Value:high+' => '高',
@@ -1897,7 +1897,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Server:Date' => '日期信息',
 	'Server:moreinfo' => '更多信息',
 	'Server:otherinfo' => '其它信息',
-	'Server:power' => '电力供应',
+	'Server:power' => '供电',
 	'Person:info' => '基本信息',
 	'UserLocal:info' => '基本信息',
 	'Person:personal_info' => '个人信息',
