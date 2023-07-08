@@ -2,9 +2,8 @@
 /**
  * Localized data
  *
- * @author    Robert Deng <denglx@gmail.com>
  * @copyright Copyright (C) 2010-2018 Combodo SARL
- * @license	http://opensource.org/licenses/AGPL-3.0
+ * @license    http://opensource.org/licenses/AGPL-3.0
  *
  * This file is part of iTop.
  *
@@ -21,6 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
 // Dictionnay conventions
 // Class:<class_name>
 // Class:<class_name>+
@@ -30,11 +30,13 @@
 // Class:<class_name>/Attribute:<attribute_code>/Value:<value>+
 // Class:<class_name>/Stimulus:<stimulus_code>
 // Class:<class_name>/Stimulus:<stimulus_code>+
+
 //
 // Class: UserLocal
 //
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:UserLocal' => 'iTop 用户',
+	'Class:UserLocal' => 'iTop用户',
 	'Class:UserLocal+' => '用户由 iTop 验证身份',
 	'Class:UserLocal/Attribute:password' => '密码',
 	'Class:UserLocal/Attribute:password+' => '用于验证用户身份的字符串',
@@ -52,5 +54,5 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'Error:UserLocalPasswordValidator:UserPasswordPolicyRegex:ValidationFailed' => '密码必须至少8 个字符,包含大小写、数字和特殊字符.',
 
-	'UserLocal:password:expiration' => 'The fields below require an extension~~'
+	'UserLocal:password:expiration' => '以下字段需要扩展才能完全实现'
 ));

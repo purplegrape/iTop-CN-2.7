@@ -20,6 +20,7 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with iTop. If not, see <http://www.gnu.org/licenses/>
  */
+
 // Dictionnay conventions
 // Class:<class_name>
 // Class:<class_name>+
@@ -29,10 +30,12 @@
 // Class:<class_name>/Attribute:<attribute_code>/Value:<value>+
 // Class:<class_name>/Stimulus:<stimulus_code>
 // Class:<class_name>/Stimulus:<stimulus_code>+
+
 //////////////////////////////////////////////////////////////////////
 // Classes in 'bizmodel'
 //////////////////////////////////////////////////////////////////////
 //
+
 // Dictionnay conventions
 // Class:<class_name>
 // Class:<class_name>+
@@ -42,9 +45,11 @@
 // Class:<class_name>/Attribute:<attribute_code>/Value:<value>+
 // Class:<class_name>/Stimulus:<stimulus_code>
 // Class:<class_name>/Stimulus:<stimulus_code>+
+
 //
 // Class: KnownError
 //
+
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:KnownError' => '已知错误',
 	'Class:KnownError+' => '记录已知错误',
@@ -52,7 +57,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:KnownError/Attribute:name+' => '',
 	'Class:KnownError/Attribute:org_id' => '客户',
 	'Class:KnownError/Attribute:org_id+' => '',
-	'Class:KnownError/Attribute:cust_name' => '客户名称',
+	'Class:KnownError/Attribute:cust_name' => '名称',
 	'Class:KnownError/Attribute:cust_name+' => '',
 	'Class:KnownError/Attribute:problem_id' => '相关问题',
 	'Class:KnownError/Attribute:problem_id+' => '',
