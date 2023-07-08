@@ -824,7 +824,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Delete:SorryDeletionNotAllowed' => '抱歉, 您无权删除该对象, 请看上述详细解释',
 	'UI:Delete:PleaseDoTheManualOperations' => '在删除该对象之前, 请先手工完成上述列出的操作',
 	'UI:Delect:Confirm_Object' => '请确认要删除 %1$s.',
-	'UI:Delect:Confirm_Count_ObjectsOf_Class' => '请确认要删除下列 %2$s 类的 %1$d 个对象.',
+	'UI:Delect:Confirm_Count_ObjectsOf_Class' => '请确认要删除下列 %1$d 个 %2$s.',
 	'UI:WelcomeToITop' => '欢迎使用 '.ITOP_APPLICATION,
 	'UI:DetailsPageTitle' => ITOP_APPLICATION_SHORT.' - %1$s - %2$s 详细内容',
 	'UI:ErrorPageTitle' => ITOP_APPLICATION_SHORT.' - 错误',
@@ -992,9 +992,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:NotificationsMenu:Actions' => '操作',
 	'UI:NotificationsMenu:AvailableActions' => '可用的操作',
 
-	'Menu:TagAdminMenu' => '标签配置',
+	'Menu:TagAdminMenu' => '标签设置',
 	'Menu:TagAdminMenu+' => '标签值管理',
-	'UI:TagAdminMenu:Title' => '标签配置',
+	'UI:TagAdminMenu:Title' => '标签设置',
 	'UI:TagAdminMenu:NoTags' => '未配置标签',
 	'UI:TagSetFieldData:Error' => '错误: %1$s',
 
@@ -1049,7 +1049,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:OperationCancelled' => '操作已取消',
 	'UI:ElementsDisplayed' => '筛选',
 	'UI:RelationGroupNumber_N' => '分组 #%1$d',
-	'UI:Relation:ExportAsPDF' => '导出PDF...',
+	'UI:Relation:ExportAsPDF' => '导出为PDF...',
 	'UI:RelationOption:GroupingThreshold' => '分组阈值',
 	'UI:Relation:AdditionalContextInfo' => '其它信息',
 	'UI:Relation:NoneSelected' => '无',
@@ -1154,7 +1154,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:FavoriteOrganizations+' => '进入组织下的列表,可实现通过下拉菜单快速访问. '.
 		'请注意,这并不是一项安全设置, 其它组织的对象依然可以通过选择 "所有组织" 下拉列表看到.',
 	'UI:FavoriteLanguage' => '用户界面',
-	'UI:Favorites:SelectYourLanguage' => '选择语言',
+	'UI:Favorites:SelectYourLanguage' => '请选择语言',
 	'UI:FavoriteOtherSettings' => '其它设置',
 	'UI:Favorites:Default_X_ItemsPerPage' => '默认列表: 每页 %1$s 个项目',
 	'UI:Favorites:ShowObsoleteData' => '显示废弃的数据',
@@ -1440,7 +1440,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:ConcurrentLockKilled' => '阻止并发修改当前对象的锁已被删除.',
 	'UI:Menu:KillConcurrentLock' => '消除并发修改锁定!',
 
-	'UI:Menu:ExportPDF' => '导出PDF...',
+	'UI:Menu:ExportPDF' => '导出为PDF...',
 	'UI:Menu:PrintableVersion' => '打印',
 
 	'UI:BrowseInlineImages' => '浏览图片...',

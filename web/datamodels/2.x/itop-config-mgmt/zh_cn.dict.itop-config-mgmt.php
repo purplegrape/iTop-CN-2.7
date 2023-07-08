@@ -27,13 +27,13 @@
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Relation:impacts/Description' => '受影响的因子',
+	'Relation:impacts/Description' => '受影响的元素',
 	'Relation:impacts/DownStream' => '影响...',
-	'Relation:impacts/DownStream+' => '被影响的因子',
+	'Relation:impacts/DownStream+' => '被影响的元素',
 	'Relation:impacts/UpStream' => '依赖于...',
-	'Relation:impacts/UpStream+' => '该元素依赖的因子...',
+	'Relation:impacts/UpStream+' => '该元素依赖的元素...',
 	// Legacy entries
-	'Relation:depends on/Description' => '该元素依赖的因子...',
+	'Relation:depends on/Description' => '该元素依赖的元素...',
 	'Relation:depends on/DownStream' => '依赖于...',
 	'Relation:depends on/UpStream' => '影响...',
 	'Relation:impacts/LoadData'       => '加载数据',
@@ -142,7 +142,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Location/Attribute:physicaldevice_list' => '设备',
 	'Class:Location/Attribute:physicaldevice_list+' => '该地点的所有设备',
 	'Class:Location/Attribute:person_list' => '联系人',
-	'Class:Location/Attribute:person_list+' => '该地点的所有联系人',
+	'Class:Location/Attribute:person_list+' => '该地点关联的所有联系人',
 ));
 
 //
@@ -330,13 +330,13 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:FunctionalCI/Attribute:move2production' => '投产日期',
 	'Class:FunctionalCI/Attribute:move2production+' => '',
 	'Class:FunctionalCI/Attribute:contacts_list' => '联系人',
-	'Class:FunctionalCI/Attribute:contacts_list+' => '该配置项的所有联系人',
+	'Class:FunctionalCI/Attribute:contacts_list+' => '该配置项关联的所有联系人',
 	'Class:FunctionalCI/Attribute:documents_list' => '文档',
 	'Class:FunctionalCI/Attribute:documents_list+' => '该配置项关联的所有文档',
 	'Class:FunctionalCI/Attribute:applicationsolution_list' => '应用方案',
 	'Class:FunctionalCI/Attribute:applicationsolution_list+' => '该配置项依赖的所有应用方案',
 	'Class:FunctionalCI/Attribute:providercontracts_list' => '供应商合同',
-	'Class:FunctionalCI/Attribute:providercontracts_list+' => '该配置项的所有供应商合同',
+	'Class:FunctionalCI/Attribute:providercontracts_list+' => '该配置项关联的所有供应商合同',
 	'Class:FunctionalCI/Attribute:services_list' => '服务',
 	'Class:FunctionalCI/Attribute:services_list+' => '该配置项影响的所有服务',
 	'Class:FunctionalCI/Attribute:softwares_list' => '软件',
@@ -1758,8 +1758,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Group/Attribute:status/Value:implementation+' => '生效',
 	'Class:Group/Attribute:status/Value:obsolete' => '废弃',
 	'Class:Group/Attribute:status/Value:obsolete+' => '废弃',
-	'Class:Group/Attribute:status/Value:production' => '生产',
-	'Class:Group/Attribute:status/Value:production+' => '生产',
+	'Class:Group/Attribute:status/Value:production' => '正式',
+	'Class:Group/Attribute:status/Value:production+' => '正式',
 	'Class:Group/Attribute:org_id' => '组织',
 	'Class:Group/Attribute:org_id+' => '',
 	'Class:Group/Attribute:owner_name' => '名称',
@@ -1878,14 +1878,14 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Group+' => '配置组',
 	'Menu:ConfigManagement:Shortcuts' => '快捷方式',
 	'Menu:ConfigManagement:AllContacts' => '所有联系人: %1$d',
-	'Menu:Typology' => '配置管理',
-	'Menu:Typology+' => '配置管理',
+	'Menu:Typology' => '类型管理',
+	'Menu:Typology+' => '类型管理',
 	'Menu:OSVersion' => 'OS版本',
 	'Menu:OSVersion+' => '',
 	'Menu:Software' => '软件清单',
 	'Menu:Software+' => '软件清单',
 	'UI_WelcomeMenu_AllConfigItems' => '摘要',
-	'Menu:ConfigManagement:Typology' => '配置管理',
+	'Menu:ConfigManagement:Typology' => '类型管理',
 
 ));
 
