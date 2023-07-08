@@ -782,8 +782,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:DBServer' => 'DB服务器',
 	'Class:DBServer+' => '',
-	'Class:DBServer/Attribute:dbschema_list' => '数据库',
-	'Class:DBServer/Attribute:dbschema_list+' => '该数据库服务器上的所有数据库架构',
+	'Class:DBServer/Attribute:dbschema_list' => '数据库实例',
+	'Class:DBServer/Attribute:dbschema_list+' => '该数据库服务器上的所有数据库实例',
 ));
 
 //
@@ -793,8 +793,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:WebServer' => 'Web服务器',
 	'Class:WebServer+' => '',
-	'Class:WebServer/Attribute:webapp_list' => 'Web 应用',
-	'Class:WebServer/Attribute:webapp_list+' => '该web 服务器上的所有web 应用',
+	'Class:WebServer/Attribute:webapp_list' => 'Web应用',
+	'Class:WebServer/Attribute:webapp_list+' => '该web服务器上的所有web应用',
 ));
 
 //
@@ -1064,7 +1064,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:NASFileSystem' => 'NAS 文件系统',
+	'Class:NASFileSystem' => 'NAS文件系统',
 	'Class:NASFileSystem+' => '',
 	'Class:NASFileSystem/Attribute:name' => '名称',
 	'Class:NASFileSystem/Attribute:name+' => '',
@@ -1349,8 +1349,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Model/Attribute:type/Value:Printer+' => '打印机',
 	'Class:Model/Attribute:type/Value:Rack' => '机架',
 	'Class:Model/Attribute:type/Value:Rack+' => '机架',
-	'Class:Model/Attribute:type/Value:SANSwitch' => 'SAN 交换机',
-	'Class:Model/Attribute:type/Value:SANSwitch+' => 'SAN 交换机',
+	'Class:Model/Attribute:type/Value:SANSwitch' => 'SAN交换机',
+	'Class:Model/Attribute:type/Value:SANSwitch+' => 'SAN交换机',
 	'Class:Model/Attribute:type/Value:Server' => '服务器',
 	'Class:Model/Attribute:type/Value:Server+' => '服务器',
 	'Class:Model/Attribute:type/Value:StorageSystem' => '存储系统',
@@ -1552,7 +1552,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkSubnetToVLAN/Attribute:subnet_name+' => '',
 	'Class:lnkSubnetToVLAN/Attribute:vlan_id' => 'VLAN',
 	'Class:lnkSubnetToVLAN/Attribute:vlan_id+' => '',
-	'Class:lnkSubnetToVLAN/Attribute:vlan_tag' => 'VLAN 标记',
+	'Class:lnkSubnetToVLAN/Attribute:vlan_tag' => 'VLAN标记',
 	'Class:lnkSubnetToVLAN/Attribute:vlan_tag+' => '',
 ));
 

@@ -1059,10 +1059,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Relation:PDFExportOptions' => 'PDF 导出选项',
 	'UI:Relation:AttachmentExportOptions_Name' => 'Options for Attachment to %1$s',
 	'UI:RelationOption:Untitled' => '无标题',
-	'UI:Relation:Key' => 'Key',
+	'UI:Relation:Key' => '键',
 	'UI:Relation:Comments' => '备注',
 	'UI:RelationOption:Title' => '标题',
-	'UI:RelationOption:IncludeList' => '包含的对象列表',
+	'UI:RelationOption:IncludeList' => '包含对象清单',
 	'UI:RelationOption:Comments' => '备注',
 	'UI:Button:Export' => '导出',
 	'UI:Relation:PDFExportPageFormat' => '页面格式',
@@ -1497,7 +1497,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Search:Criteria:Title:DateTime:Between' => '%2$s <= 1$s <= %3$s',
 	//   - Enum widget
 	'UI:Search:Criteria:Title:Enum:In' => '%1$s: %2$s',
-	'UI:Search:Criteria:Title:Enum:In:Many' => '%1$s: %2$s 和 %3$s others',
+	'UI:Search:Criteria:Title:Enum:In:Many' => '%1$s: %2$s 和 %3$s 其它',
 	'UI:Search:Criteria:Title:Enum:In:All' => '%1$s: 任何',
 	//   - TagSet widget
 	'UI:Search:Criteria:Title:TagSet:Matches' => '%1$s: %2$s',
@@ -1506,7 +1506,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Search:Criteria:Title:ExternalKey:NotEmpty' => '%1$s 未被定义',
 	'UI:Search:Criteria:Title:ExternalKey:Equals' => '%1$s %2$s',
 	'UI:Search:Criteria:Title:ExternalKey:In' => '%1$s: %2$s',
-	'UI:Search:Criteria:Title:ExternalKey:In:Many' => '%1$s: %2$s 和 %3$s others',
+	'UI:Search:Criteria:Title:ExternalKey:In:Many' => '%1$s: %2$s 和 %3$s 其它',
 	'UI:Search:Criteria:Title:ExternalKey:In:All' => '%1$s: 任何',
 	//   - Hierarchical key widget
 	'UI:Search:Criteria:Title:HierarchicalKey:Empty' => '%1$s 已定义',

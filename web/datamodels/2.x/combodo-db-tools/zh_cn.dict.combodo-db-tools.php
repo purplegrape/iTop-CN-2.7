@@ -35,7 +35,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'DBTools:SQLquery' => 'SQL 查询',
 	'DBTools:FixitSQLquery' => 'SQL query To Fix it (indication)~~',
 	'DBTools:SQLresult' => 'SQL 结果',
-	'DBTools:NoError' => '数据库是完整的',
+	'DBTools:NoError' => '数据库完整',
 	'DBTools:HideIds' => '错误列表',
 	'DBTools:ShowIds' => '详细视图',
 	'DBTools:ShowReport' => '报告',
