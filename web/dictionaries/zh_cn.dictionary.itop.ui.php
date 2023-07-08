@@ -1184,7 +1184,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Display_X_ItemsPerPage' => '每页 %1$s 项',
 	'UI:UseSavetheSettings' => '保存设置',
 	'UI:OnlyForThisList' => '仅此列表',
-	'UI:ForAllLists' => '默认所有列表',
+	'UI:ForAllLists' => '默认全部列表',
 	'UI:ExtKey_AsLink' => '%1$s (超链接)',
 	'UI:ExtKey_AsFriendlyName' => '%1$s (友好名称)',
 	'UI:ExtField_AsRemoteField' => '%1$s (%2$s)',
@@ -1459,7 +1459,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	// Search form
 	'UI:Search:Toggle' => '折叠/展开',
 	'UI:Search:AutoSubmit:DisabledHint' => '该类别已禁用自动提交',
-	'UI:Search:Obsolescence:DisabledHint' => '<span class="fas fa-eye-slash fa-1x"></span> Based on your preferences, obsolete data are hidden~~',
+	'UI:Search:Obsolescence:DisabledHint' => '<span class="fas fa-eye-slash fa-1x"></span> 根据您的设置, 废弃的数据会被隐藏',
 	'UI:Search:NoAutoSubmit:ExplainText' => '在搜索框中添加规则,或者单击对象按钮查看对象.',
 	'UI:Search:Criterion:MoreMenu:AddCriteria' => '添加条件',
 	// - Add new criteria button
