@@ -202,7 +202,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:URP_UserOrg' => '用户组织',
+	'Class:URP_UserOrg' => '组织',
 	'Class:URP_UserOrg+' => '可以访问的组织',
 	'Class:URP_UserOrg/Attribute:userid' => '用户',
 	'Class:URP_UserOrg/Attribute:userid+' => '账号',
