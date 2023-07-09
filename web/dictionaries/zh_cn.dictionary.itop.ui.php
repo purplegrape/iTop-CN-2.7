@@ -1541,7 +1541,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:Search:Value:Filter:Placeholder' => '筛选器...',
 	'UI:Search:Value:Search:Placeholder' => '搜索...',
 	'UI:Search:Value:Autocomplete:StartTyping' => '开始输入值.',
-	'UI:Search:Value:Autocomplete:Wait' => '请稍后...',
+	'UI:Search:Value:Autocomplete:Wait' => '请稍候...',
 	'UI:Search:Value:Autocomplete:NoResult' => '没有找到结果.',
 	'UI:Search:Value:Toggler:CheckAllNone' => '全选/不选',
 	'UI:Search:Value:Toggler:CheckAllNoneFiltered' => '全选/不选',

@@ -10,8 +10,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', [
 	'Menu:CreateMailbox' => 'Create a mailbox...~~',
 	'Menu:OAuthClient' => 'OAuth 客户端',
 	'Menu:OAuthClient+' => '',
-	'Menu:GenerateTokens' => '生成访问令牌...',
-	'Menu:RegenerateTokens' => '重新生成访问令牌...',
+	'Menu:GenerateTokens' => '生成 token...',
+	'Menu:RegenerateTokens' => '重新生成 token...',
 
 	'itop-oauth-client/Operation:CreateMailBox/Title' => 'Mailbox creation~~',
 
@@ -20,9 +20,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', [
 	'itop-oauth-client:MissingOAuthClient' => 'Missing Oauth client for user name %1$s~~',
 	'itop-oauth-client:Message:MissingToken' => 'Generate access token before using this OAuth client~~',
 	'itop-oauth-client:Message:RegenerateToken' => 'Regenerate access token to to take into account the changes',
-	'itop-oauth-client:Message:TokenCreated' => '访问令牌已生成',
-	'itop-oauth-client:Message:TokenRecreated' => '访问令牌已重新生成',
-	'itop-oauth-client:Message:TokenError' => '由于服务器报错,访问令牌未生成',
+	'itop-oauth-client:Message:TokenCreated' => 'token 已生成',
+	'itop-oauth-client:Message:TokenRecreated' => 'token 已重新生成',
+	'itop-oauth-client:Message:TokenError' => '由于服务器报错,token未生成',
 
 	'OAuthClient:Name/UseForSMTPMustBeUnique' => 'The combination Login (%1$s) and Use for SMTP (%2$s) has already be used for OAuth Client~~',
 
@@ -54,9 +54,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', [
 	'Class:OAuthClient/Attribute:refresh_token+' => '',
 	'Class:OAuthClient/Attribute:refresh_token_expiration' => '刷新令牌有效期',
 	'Class:OAuthClient/Attribute:refresh_token_expiration+' => '',
-	'Class:OAuthClient/Attribute:token' => '访问令牌',
+	'Class:OAuthClient/Attribute:token' => 'token',
 	'Class:OAuthClient/Attribute:token+' => '',
-	'Class:OAuthClient/Attribute:token_expiration' => '访问令牌有效期',
+	'Class:OAuthClient/Attribute:token_expiration' => 'token有效期',
 	'Class:OAuthClient/Attribute:token_expiration+' => '',
 	'Class:OAuthClient/Attribute:redirect_url' => 'Redirect url',
 	'Class:OAuthClient/Attribute:redirect_url+' => <<<EOF

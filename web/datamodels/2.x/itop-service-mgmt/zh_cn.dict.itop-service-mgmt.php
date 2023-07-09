@@ -36,7 +36,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Service:Overview+' => '',
 	'UI-ServiceManagementMenu-ContractsBySrvLevel' => '合同(按服务等级)',
 	'UI-ServiceManagementMenu-ContractsByStatus' => '合同(按状态)',
-	'UI-ServiceManagementMenu-ContractsEndingIn30Days' => 'Contracts ending in less then 30 days',
+	'UI-ServiceManagementMenu-ContractsEndingIn30Days' => '30天内截止的合同',
 
 	'Menu:ProviderContract' => '供应商合同',
 	'Menu:ProviderContract+' => '供应商合同',

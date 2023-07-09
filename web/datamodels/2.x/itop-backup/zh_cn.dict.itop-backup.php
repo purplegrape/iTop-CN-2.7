@@ -22,15 +22,15 @@
  */
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
-	'bkp-backup-running' => '备份正在进行,请稍后...',
-	'bkp-restore-running' => '还原正在进行,请稍等...',
+	'bkp-backup-running' => '备份正在进行,请稍候...',
+	'bkp-restore-running' => '还原正在进行,请稍候...',
 
 	'Menu:BackupStatus' => '定时备份',
 	'bkp-status-title' => '定时备份',
 	'bkp-status-checks' => '设置与检查',
-	'bkp-mysqldump-ok' => '已找到mysqldump : %1$s',
-	'bkp-mysqldump-notfound' => 'mysqldump 找不到: %1$s - 请确认它安装在正确的路径, 或者调整iTop 配置文件的选项mysql_bindir.',
-	'bkp-mysqldump-issue' => 'mysqldump 无法运行 (retcode=%1$d): 请确认它安装在正确的路径, 或者调整iTop 配置文件的选项mysql_bindir',
+	'bkp-mysqldump-ok' => '已找到 mysqldump : %1$s',
+	'bkp-mysqldump-notfound' => 'mysqldump 找不到: %1$s - 请确认它安装在正确的路径, 或者调整 iTop 配置文件的选项 mysql_bindir.',
+	'bkp-mysqldump-issue' => 'mysqldump 无法运行 (retcode=%1$d): 请确认它安装在正确的路径, 或者调整 iTop 配置文件的选项 mysql_bindir',
 	'bkp-missing-dir' => '目标目录 %1$s 找不到',
 	'bkp-free-disk-space' => '<b>%1$s 空闲</b> 在 %2$s',
 	'bkp-dir-not-writeable' => '%1$s 没有写入权限',
@@ -40,7 +40,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'bkp-retention' => '最多 <b>%1$d 份备份文件 </b> 在目标目录.',
 	'bkp-next-to-delete' => '当下一次备份时将被删除 (see the setting "retention_count")',
 	'bkp-table-file' => 'File',
-	'bkp-table-file+' => '只有扩展名是.zip的文件才被认为是备份文件',
+	'bkp-table-file+' => '只有扩展名是.zip 的文件才被认为是备份文件',
 	'bkp-table-size' => '大小',
 	'bkp-table-size+' => '',
 	'bkp-table-actions' => '操作',
