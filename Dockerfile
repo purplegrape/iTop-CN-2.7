@@ -15,7 +15,7 @@ RUN sed -i 's#CustomLog.*#CustomLog /proc/self/fd/1 combined#g' /etc/apache2/sit
 RUN rm -rf /var/lib/apt/lists/* /etc/apache2/conf-available/other-vhosts-access-log.conf
 RUN mkdir -p /var/www/html ;rm -rf /var/www/html
 
-ADD itop.tar /usr/src/
+ADD web.tar /usr/src/
 
 ADD entrypoint.sh /
 RUN chmod 755 /entrypoint.sh
