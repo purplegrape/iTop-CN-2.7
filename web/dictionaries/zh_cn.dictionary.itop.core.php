@@ -94,7 +94,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeClass' => '类',
 	'Core:AttributeClass+' => '类型',
 
-	'Core:AttributeApplicationLanguage' => '用户语言',
+	'Core:AttributeApplicationLanguage' => '语言',
 	'Core:AttributeApplicationLanguage+' => '语言和国家地区(EN US)',
 
 	'Core:AttributeFinalClass' => '类 (auto)',

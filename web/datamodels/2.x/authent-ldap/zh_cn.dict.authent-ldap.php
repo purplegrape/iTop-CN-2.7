@@ -35,7 +35,7 @@
 //
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:UserLDAP' => 'LDAP 用户',
-	'Class:UserLDAP+' => '用户身份由LDAP 认证',
+	'Class:UserLDAP+' => '用户身份由 LDAP 认证',
 	'Class:UserLDAP/Attribute:password' => '密码',
 	'Class:UserLDAP/Attribute:password+' => '用于验证用户身份的字符串',
 ));

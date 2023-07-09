@@ -239,7 +239,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:ResponseTicketTTR/Interface:iMetricComputer+' => 'SLT 的解决时限',
 
 	'portal:itop-portal' => '标准门户', // This is the portal name that will be displayed in portal dispatcher (eg. URL in menus)
-	'Page:DefaultTitle' => 'iTop - 用户门户',
+	'Page:DefaultTitle' => 'iTop - 门户',
 	'Brick:Portal:UserProfile:Title' => '我的资料',
 	'Brick:Portal:NewRequest:Title' => '新建工单',
 	'Brick:Portal:NewRequest:Title+' => '<p>需要帮助?</p><p>选择子服务,然后提交工单给我们的支持团队.</p>',

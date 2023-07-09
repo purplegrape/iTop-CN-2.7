@@ -123,7 +123,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:User/Attribute:login' => '登录名',
 	'Class:User/Attribute:login+' => '用户标识字符串',
 	'Class:User/Attribute:language' => '语言',
-	'Class:User/Attribute:language+' => '用户语言',
+	'Class:User/Attribute:language+' => '语言',
 	'Class:User/Attribute:language/Value:EN US' => '英语',
 	'Class:User/Attribute:language/Value:EN US+' => '英语 (U.S.)',
 	'Class:User/Attribute:language/Value:FR FR' => '法语',
@@ -144,7 +144,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:User/Error:UserOrganizationNotAllowed' => '该用户不属于那个组织.',
 	'Class:User/Error:PersonIsMandatory' => '联系人必填.',
 	'Class:UserInternal' => '内部用户',
-	'Class:UserInternal+' => 'iTop内部定义的用户',
+	'Class:UserInternal+' => 'iTop 内部定义的用户',
 ));
 
 //
@@ -319,7 +319,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 // Class: UserDashboard
 //
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:UserDashboard' => '用户面板',
+	'Class:UserDashboard' => '用户仪表盘',
 	'Class:UserDashboard+' => '',
 	'Class:UserDashboard/Attribute:user_id' => '用户',
 	'Class:UserDashboard/Attribute:user_id+' => '',
@@ -931,18 +931,18 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI-ConfigMgmtMenuOverview-FunctionalCIByType' => '按类型配置项目',
 
 	'UI:RequestMgmtMenuOverview:Title' => '需求管理仪表盘',
-	'UI-RequestManagementOverview-RequestByService' => '按服务划分用户需求',
-	'UI-RequestManagementOverview-RequestByPriority' => '按优先级划分用户需求',
-	'UI-RequestManagementOverview-RequestUnassigned' => '尚未分配给办理人的用户需求',
+	'UI-RequestManagementOverview-RequestByService' => '按服务划分需求',
+	'UI-RequestManagementOverview-RequestByPriority' => '按优先级划分需求',
+	'UI-RequestManagementOverview-RequestUnassigned' => '尚未分配的需求',
 
 	'UI:IncidentMgmtMenuOverview:Title' => '事件管理仪表盘',
 	'UI-IncidentManagementOverview-IncidentByService' => '按服务级划分事件',
 	'UI-IncidentManagementOverview-IncidentByPriority' => '按优先级划分事件',
-	'UI-IncidentManagementOverview-IncidentUnassigned' => '尚未分配给办理人的事件',
+	'UI-IncidentManagementOverview-IncidentUnassigned' => '尚未分配的事件',
 
 	'UI:ChangeMgmtMenuOverview:Title' => '变更管理仪表盘',
 	'UI-ChangeManagementOverview-ChangeByType' => '按类型划分变更',
-	'UI-ChangeManagementOverview-ChangeUnassigned' => '尚未分配给办理人的变更',
+	'UI-ChangeManagementOverview-ChangeUnassigned' => '尚未分配的变更',
 	'UI-ChangeManagementOverview-ChangeWithOutage' => '变更引起的停机',
 
 	'UI:ServiceMgmtMenuOverview:Title' => '服务管理仪表盘',
