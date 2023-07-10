@@ -1552,7 +1552,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:lnkSubnetToVLAN/Attribute:subnet_name+' => '',
 	'Class:lnkSubnetToVLAN/Attribute:vlan_id' => 'VLAN',
 	'Class:lnkSubnetToVLAN/Attribute:vlan_id+' => '',
-	'Class:lnkSubnetToVLAN/Attribute:vlan_tag' => 'VLAN 标记',
+	'Class:lnkSubnetToVLAN/Attribute:vlan_tag' => 'VLAN 标签',
 	'Class:lnkSubnetToVLAN/Attribute:vlan_tag+' => '',
 ));
 
