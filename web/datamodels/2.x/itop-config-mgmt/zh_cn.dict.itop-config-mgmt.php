@@ -496,7 +496,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:DatacenterDevice/Attribute:fiberinterfacelist_list' => '光纤接口',
 	'Class:DatacenterDevice/Attribute:fiberinterfacelist_list+' => '该设备的所有光纤接口',
 	'Class:DatacenterDevice/Attribute:san_list' => 'SAN',
-	'Class:DatacenterDevice/Attribute:san_list+' => '所有连接到这台设备的SAN 交换机',
+	'Class:DatacenterDevice/Attribute:san_list+' => '所有连接到这台设备的 SAN 交换机',
 	'Class:DatacenterDevice/Attribute:redundancy' => '冗余',
 	'Class:DatacenterDevice/Attribute:redundancy/count' => '该设备运行正常至少需要一路电源 (A 或 B)',
 	// Unused yet
@@ -571,7 +571,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:SANSwitch' => 'SAN 交换机',
 	'Class:SANSwitch+' => '',
 	'Class:SANSwitch/Attribute:datacenterdevice_list' => '设备',
-	'Class:SANSwitch/Attribute:datacenterdevice_list+' => '连接到该SAN 交换机的所有设备',
+	'Class:SANSwitch/Attribute:datacenterdevice_list+' => '连接到该 SAN 交换机的所有设备',
 ));
 
 //
@@ -593,7 +593,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:NAS' => 'NAS',
 	'Class:NAS+' => '',
 	'Class:NAS/Attribute:nasfilesystem_list' => '文件系统',
-	'Class:NAS/Attribute:nasfilesystem_list+' => '该NAS 里的所有文件系统',
+	'Class:NAS/Attribute:nasfilesystem_list+' => '该 NAS 里的所有文件系统',
 ));
 
 //
@@ -649,7 +649,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:PowerSource' => '电源',
 	'Class:PowerSource+' => '',
 	'Class:PowerSource/Attribute:pdus_list' => 'PDU',
-	'Class:PowerSource/Attribute:pdus_list+' => '使用该电源的所有PDU',
+	'Class:PowerSource/Attribute:pdus_list+' => '使用该电源的所有 PDU',
 ));
 
 //
@@ -661,7 +661,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:PDU+' => '',
 	'Class:PDU/Attribute:rack_id' => '机架',
 	'Class:PDU/Attribute:rack_id+' => '',
-	'Class:PDU/Attribute:rack_name' => '机架名称',
+	'Class:PDU/Attribute:rack_name' => '名称',
 	'Class:PDU/Attribute:rack_name+' => '',
 	'Class:PDU/Attribute:powerstart_id' => '上游电源',
 	'Class:PDU/Attribute:powerstart_id+' => '',
@@ -780,7 +780,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:DBServer' => 'DB服务器',
+	'Class:DBServer' => 'DB 服务器',
 	'Class:DBServer+' => '',
 	'Class:DBServer/Attribute:dbschema_list' => '数据库实例',
 	'Class:DBServer/Attribute:dbschema_list+' => '该数据库服务器上的所有数据库实例',
@@ -791,10 +791,10 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:WebServer' => 'Web服务器',
+	'Class:WebServer' => 'Web 服务器',
 	'Class:WebServer+' => '',
-	'Class:WebServer/Attribute:webapp_list' => 'Web应用',
-	'Class:WebServer/Attribute:webapp_list+' => '该web服务器上的所有web应用',
+	'Class:WebServer/Attribute:webapp_list' => 'Web 应用',
+	'Class:WebServer/Attribute:webapp_list+' => '该 web 服务器上的所有 web 应用',
 ));
 
 //
@@ -802,7 +802,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:PCSoftware' => 'PC软件',
+	'Class:PCSoftware' => 'PC 软件',
 	'Class:PCSoftware+' => '',
 ));
 
@@ -835,7 +835,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:DatabaseSchema' => '数据库实例',
 	'Class:DatabaseSchema+' => '',
-	'Class:DatabaseSchema/Attribute:dbserver_id' => 'DB服务器',
+	'Class:DatabaseSchema/Attribute:dbserver_id' => 'DB 服务器',
 	'Class:DatabaseSchema/Attribute:dbserver_id+' => '',
 	'Class:DatabaseSchema/Attribute:dbserver_name' => '名称',
 	'Class:DatabaseSchema/Attribute:dbserver_name+' => '',
@@ -846,9 +846,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:WebApplication' => 'Web应用',
+	'Class:WebApplication' => 'Web 应用',
 	'Class:WebApplication+' => '',
-	'Class:WebApplication/Attribute:webserver_id' => 'Web服务器',
+	'Class:WebApplication/Attribute:webserver_id' => 'Web 服务器',
 	'Class:WebApplication/Attribute:webserver_id+' => '',
 	'Class:WebApplication/Attribute:webserver_name' => '名称',
 	'Class:WebApplication/Attribute:webserver_name+' => '',
@@ -1064,7 +1064,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:NASFileSystem' => 'NAS文件系统',
+	'Class:NASFileSystem' => 'NAS 文件系统',
 	'Class:NASFileSystem+' => '',
 	'Class:NASFileSystem/Attribute:name' => '名称',
 	'Class:NASFileSystem/Attribute:name+' => '',
@@ -1349,8 +1349,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Model/Attribute:type/Value:Printer+' => '打印机',
 	'Class:Model/Attribute:type/Value:Rack' => '机架',
 	'Class:Model/Attribute:type/Value:Rack+' => '机架',
-	'Class:Model/Attribute:type/Value:SANSwitch' => 'SAN交换机',
-	'Class:Model/Attribute:type/Value:SANSwitch+' => 'SAN交换机',
+	'Class:Model/Attribute:type/Value:SANSwitch' => 'SAN 交换机',
+	'Class:Model/Attribute:type/Value:SANSwitch+' => 'SAN 交换机',
 	'Class:Model/Attribute:type/Value:Server' => '服务器',
 	'Class:Model/Attribute:type/Value:Server+' => '服务器',
 	'Class:Model/Attribute:type/Value:StorageSystem' => '存储系统',
