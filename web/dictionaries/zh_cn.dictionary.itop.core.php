@@ -882,7 +882,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	// Bulk export
 	'Core:BulkExport:MissingParameter_Param' => '缺少参数 "%1$s"',
-	'Core:BulkExport:InvalidParameter_Query' => 'Invalid value for the parameter "query". There is no Query Phrasebook corresponding to the id: "%1$s".',
+	'Core:BulkExport:InvalidParameter_Query' => 'Invalid value for the parameter "query". There is no Query Phrasebook corresponding to the id: "%1$s".~~',
 	'Core:BulkExport:ExportFormatPrompt' => '导出格式:',
 	'Core:BulkExportOf_Class' => '%1$s 导出',
 	'Core:BulkExport:ClickHereToDownload_FileName' => '点击这里下载 %1$s',
@@ -920,9 +920,9 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:BulkExport:OptionFormattedText' => '保持文本格式',
 	'Core:BulkExport:ScopeDefinition' => '定义要导出的对象',
 	'Core:BulkExportLabelOQLExpression' => 'OQL 查询:',
-	'Core:BulkExportLabelPhrasebookEntry' => '来自查询手册:',
+	'Core:BulkExportLabelPhrasebookEntry' => '来自预定义查询:',
 	'Core:BulkExportMessageEmptyOQL' => '请输入有效的 OQL 查询.',
-	'Core:BulkExportMessageEmptyPhrasebookEntry' => 'Please select a valid phrasebook entry.',
+	'Core:BulkExportMessageEmptyPhrasebookEntry' => '请选择有效的预定义查询.',
 	'Core:BulkExportQueryPlaceholder' => '请在这里输入 OQL 查询...',
 	'Core:BulkExportCanRunNonInteractive' => '点击这里运行非交互式导出.',
 	'Core:BulkExportLegacyExport' => '点击这里进入旧版导出.',

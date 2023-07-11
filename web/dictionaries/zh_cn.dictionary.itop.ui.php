@@ -1005,8 +1005,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:RunQueriesMenu' => '运行查询', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:RunQueriesMenu+' => '运行任何查询', // Duplicated into itop-welcome-itil (will be removed from here...)
 
-	'Menu:QueryMenu' => '查询手册', // Duplicated into itop-welcome-itil (will be removed from here...)
-	'Menu:QueryMenu+' => '查询手册', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:QueryMenu' => '预定义查询', // Duplicated into itop-welcome-itil (will be removed from here...)
+	'Menu:QueryMenu+' => '预定义查询', // Duplicated into itop-welcome-itil (will be removed from here...)
 
 	'Menu:DataAdministration' => '数据管理', // Duplicated into itop-welcome-itil (will be removed from here...)
 	'Menu:DataAdministration+' => '数据管理', // Duplicated into itop-welcome-itil (will be removed from here...)
@@ -1200,7 +1200,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'UI:ExportDashBoard' => '导出到文件',
 	'UI:ImportDashBoard' => '从文件导入...',
 	'UI:ImportDashboardTitle' => '从文件导入',
-	'UI:ImportDashboardText' => '选择要导入的仪表盘文件:',
+	'UI:ImportDashboardText' => '请选择要导入的仪表盘文件:',
 
 
 	'UI:DashletCreation:Title' => '新建组件',
@@ -1445,7 +1445,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 
 	'UI:BrowseInlineImages' => '浏览图片...',
 	'UI:UploadInlineImageLegend' => '上传新图片',
-	'UI:SelectInlineImageToUpload' => '选择要上传的图片',
+	'UI:SelectInlineImageToUpload' => '请选择要上传的图片',
 	'UI:AvailableInlineImagesLegend' => '可用的图片',
 	'UI:NoInlineImage' => '服务器上没有图片. 使用上面的 "浏览" 按钮,从您的电脑上选择并上传到服务器.',
 
