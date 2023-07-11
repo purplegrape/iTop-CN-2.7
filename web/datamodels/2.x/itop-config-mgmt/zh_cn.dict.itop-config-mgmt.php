@@ -440,7 +440,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:IPPhone' => 'IP电话',
+	'Class:IPPhone' => 'IP 电话',
 	'Class:IPPhone+' => '',
 ));
 
@@ -783,7 +783,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:DBServer' => 'DB 服务器',
 	'Class:DBServer+' => '',
 	'Class:DBServer/Attribute:dbschema_list' => '数据库实例',
-	'Class:DBServer/Attribute:dbschema_list+' => '该数据库服务器上的所有数据库实例',
+	'Class:DBServer/Attribute:dbschema_list+' => '该 DB 服务器上的所有数据库实例',
 ));
 
 //
@@ -1097,8 +1097,8 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Class:Software/Attribute:documents_list+' => '该软件的所有文档',
 	'Class:Software/Attribute:type' => '类型',
 	'Class:Software/Attribute:type+' => '',
-	'Class:Software/Attribute:type/Value:DBServer' => '数据库服务器',
-	'Class:Software/Attribute:type/Value:DBServer+' => 'DB Server',
+	'Class:Software/Attribute:type/Value:DBServer' => 'DB 服务器',
+	'Class:Software/Attribute:type/Value:DBServer+' => 'DB 服务器',
 	'Class:Software/Attribute:type/Value:Middleware' => '中间件',
 	'Class:Software/Attribute:type/Value:Middleware+' => '中间件',
 	'Class:Software/Attribute:type/Value:OtherSoftware' => '其它软件',
@@ -1574,13 +1574,13 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 //
 
 Dict::Add('ZH CN', 'Chinese', '简体中文', array(
-	'Class:IPInterface' => 'IP接口',
+	'Class:IPInterface' => 'IP 接口',
 	'Class:IPInterface+' => '',
-	'Class:IPInterface/Attribute:ipaddress' => 'IP地址',
+	'Class:IPInterface/Attribute:ipaddress' => 'IP 地址',
 	'Class:IPInterface/Attribute:ipaddress+' => '',
 
 
-	'Class:IPInterface/Attribute:macaddress' => 'MAC地址',
+	'Class:IPInterface/Attribute:macaddress' => 'MAC 地址',
 	'Class:IPInterface/Attribute:macaddress+' => '',
 	'Class:IPInterface/Attribute:comment' => '备注',
 	'Class:IPInterface/Attribute:coment+' => '',
@@ -1816,7 +1816,7 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Menu:Organization+' => '所有组织',
 	'Menu:Application' => '应用',
 	'Menu:Application+' => '所有应用',
-	'Menu:DBServer' => '数据库服务器',
+	'Menu:DBServer' => 'DB 服务器',
 	'Menu:DBServer+' => '数据库服务器',
 	'Menu:ConfigManagement' => '配置管理',
 	'Menu:ConfigManagement+' => '配置管理',
