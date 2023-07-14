@@ -91,13 +91,13 @@ Dict::Add('ZH CN', 'Chinese', '简体中文', array(
 	'Core:AttributeString' => '字符串',
 	'Core:AttributeString+' => '字符串',
 
-	'Core:AttributeClass' => '类',
+	'Core:AttributeClass' => '类型',
 	'Core:AttributeClass+' => '类型',
 
 	'Core:AttributeApplicationLanguage' => '语言',
 	'Core:AttributeApplicationLanguage+' => '语言和国家地区(EN US)',
 
-	'Core:AttributeFinalClass' => '类 (auto)',
+	'Core:AttributeFinalClass' => '类型 (自动)',
 	'Core:AttributeFinalClass+' => 'Real class of the object (automatically created by the core)',
 
 	'Core:AttributePassword' => '密码',
